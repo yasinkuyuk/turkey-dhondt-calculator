@@ -73,15 +73,16 @@
         <dashboard-view></dashboard-view>
       </div>
     </div>
+    <footer-badge></footer-badge>
   </div>
 </template>
 
 <script>
-import { DashboardView, TurkeyMap } from "@/components";
+import { DashboardView, FooterBadge, TurkeyMap } from "@/components";
 import { mapGetters } from "vuex";
 export default {
   name: "App",
-  components: { DashboardView, TurkeyMap },
+  components: { DashboardView, TurkeyMap, FooterBadge },
   computed: {
     ...mapGetters(["currentProvince"]),
   },
