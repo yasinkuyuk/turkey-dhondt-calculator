@@ -5,25 +5,37 @@
     "isPassedThreshold": true
   },
   {
+    "name": "Büyük Birlik Partisi",
+    "keyword": "BBP",
+    "isPassedThreshold": true
+  },
+  {
     "name": "Cumhuriyet Halk Partisi",
     "keyword": "CHP",
     "isPassedThreshold": true
   },
+  {
+    "name": "Halkların Demokratik Partisi",
+    "keyword": "HDP",
+    "isPassedThreshold": true
+  },
+
   {
     "name": "İYİ Parti",
     "keyword": "IYIP",
     "isPassedThreshold": true
   },
   {
+    "name": "Memleket Partisi",
+    "keyword": "MP",
+    "isPassedThreshold": false
+  },
+  {
     "name": "Milliyetçi Hareket Partisi",
     "keyword": "MHP",
     "isPassedThreshold": true
   },
-  {
-    "name": "Halkların Demokrat Partisi",
-    "keyword": "HDP",
-    "isPassedThreshold": true
-  },
+
   {
     "name": "Türkiye İşçi Partisi",
     "keyword": "TIP",
@@ -35,23 +47,13 @@
     "isPassedThreshold": false
   },
   {
-    "name": "Memleket Partisi",
-    "keyword": "MP",
-    "isPassedThreshold": false
-  },
-  {
-    "name": "Zafer Partisi",
-    "keyword": "ZP",
-    "isPassedThreshold": false
-  },
-  {
     "name": "Yeniden Refah Partisi",
     "keyword": "YRP",
     "isPassedThreshold": true
   },
   {
-    "name": "Büyük Birlik Partisi",
-    "keyword": "BBP",
-    "isPassedThreshold": true
+    "name": "Zafer Partisi",
+    "keyword": "ZP",
+    "isPassedThreshold": false
   }
 ]

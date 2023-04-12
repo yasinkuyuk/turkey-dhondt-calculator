@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center gap-2">
-    <div class="text-xs font-semibold">Seçili Şehir:</div>
+    <div class="text-xs font-semibold">Seçilen İl:</div>
     <el-select
       v-model="selectedProvince"
       placeholder="Lütfen şehir seçin"

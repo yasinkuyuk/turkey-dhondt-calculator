@@ -46,6 +46,19 @@
             <strong>https://acikveri.ysk.gov.tr/ </strong> adresinden
             alınmıştır.
           </div>
+          <div
+            class="px-4 py-2 text-left mt-2 mb-4 bg-amber-50 rounded-md border-l-4 border-l-yellow-600 shadow-lg text-xs"
+          >
+            <font-awesome-icon
+              icon="fa-circle-exclamation"
+              class="text-yellow-600 mr-1"
+            ></font-awesome-icon>
+
+            <strong>Halkların Demokratik Partisi(HDP),</strong> seçimlere
+            <strong>Yeşil Sol Partisi</strong> listelerinden katılacaktır. 2018
+            seçim verilerinin korunabilmesi adına
+            <span class="italic">Oy Oranları</span> bölümünde yer almaktadır.
+          </div>
         </div>
         <div class="col-span-3 md:col-span-2">
           <h2 class="text-2xl font-semibold text-gray-400">

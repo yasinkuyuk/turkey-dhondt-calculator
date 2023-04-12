@@ -6,6 +6,16 @@
       </div>
       <div><province-dropdown></province-dropdown></div>
     </div>
+    <div class="text-left" v-if="currentProvince.distincts">
+      <el-tabs v-model="activeDistinct" @tab-click="handleDistinctClick">
+        <el-tab-pane
+          v-for="(distinct, index) in currentProvince.distincts"
+          :key="index"
+          :name="distinct.name"
+          :label="distinct.name"
+        ></el-tab-pane>
+      </el-tabs>
+    </div>
     <div class="grid grid-cols-6 text-left gap-x-4">
       <div
         class="col-span-6 md:col-span-3 lg:col-span-2 my-2 flex items-center justify-between bg-white p-4 rounded-md shadow-lg"
@@ -38,6 +48,49 @@
           >Hesapla</el-button
         >
       </div>
+      <el-dialog
+        :title="`${currentProvince.name}${
+          currentProvince.distincts ? ` - ${activeDistinct}` : ''
+        }`"
+        :visible.sync="isResultsVisible"
+        width="50%"
+        class="rounded-md"
+        :before-close="closeResults"
+      >
+        <div class="grid grid-cols-2">
+          <div class="col-span-2 md:col-span-1">
+            <div class="flex items-center gap-1 mb-1">
+              <div class="text-sm text-gray-400">Seçmen Sayısı:</div>
+              <div class="text-sm font-semibold">-</div>
+            </div>
+            <div class="flex items-center gap-1">
+              <div class="text-sm text-gray-400">
+                Toplam Milletvekili Sayısı:
+              </div>
+              <div class="text-sm font-semibold">
+                {{ provinceData.deputyCount }}
+              </div>
+            </div>
+          </div>
+          <div class="col-span-2 md:col-span-1">
+            <div class="grid grid-cols-2 gap-2">
+              <div
+                v-for="party in Object.keys(votes)"
+                :key="party"
+                class="border-1 text-center rounded-md shadow-lg bg-white"
+              >
+                <div class="text-2xl font-semibold">
+                  {{ results[party] }}
+                </div>
+                <div class="text-gray-400 mt-1">{{ party }}</div>
+
+                <hr class="my-1" />
+                <div class="">%{{ votes[party] }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </el-dialog>
     </div>
   </div>
 </template>
@@ -58,7 +111,11 @@ export default {
   data() {
     return {
       votes: {},
+      activeDistinct: "",
+      provinceData: {},
+      isResultsVisible: false,
       loading: false,
+      results: {},
     };
   },
   methods: {
@@ -69,24 +126,39 @@ export default {
       this.loading = true;
 
       setTimeout(() => {
-        let result = DhondtCalculator(
+        this.results = DhondtCalculator(
           this.votes,
-          this.currentProvince.deputyCount
+          this.provinceData.deputyCount
         );
-        console.log(result);
         this.loading = false;
+        this.isResultsVisible = true;
       }, 1000);
     },
-    createVotes() {
+    handleDistinctClick() {
+      let index = this.currentProvince.distincts.findIndex(
+        (distinct) => distinct.name === this.activeDistinct
+      );
+      this.createVotes(index);
+    },
+    createVotes(index = 0) {
+      this.provinceData = this.currentProvince;
+
+      if (this.provinceData.distincts) {
+        this.activeDistinct = this.currentProvince.distincts[index].name;
+        this.provinceData = this.currentProvince.distincts[index];
+      }
       this.parties.forEach((party) => {
         this.$set(
           this.votes,
           party.keyword,
-          this.currentProvince.results[party.keyword]
-            ? this.currentProvince.results[party.keyword]
+          this.provinceData.results[party.keyword]
+            ? this.provinceData.results[party.keyword]
             : 0
         );
       });
+    },
+    closeResults() {
+      this.isResultsVisible = false;
     },
   },
   computed: {
@@ -114,7 +186,11 @@ export default {
 </script>
 
 <style>
-.el-tooltip__popper.is-light {
-  width: 300px;
+.el-dialog {
+  border-radius: 12px;
+}
+
+.el-dialog__body {
+  background-color: #fafafa;
 }
 </style>
