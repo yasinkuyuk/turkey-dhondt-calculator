@@ -1,294 +1,108 @@
 [
   {
-    "cityCode": "1",
-    "cityName": "ADANA",
-    "registeredVoterCount": 1526827,
-    "voterCount": 1313497,
-    "validVoterCount": 1289267,
+    "id": "1",
+    "name": "ADANA",
+    "deputyCount": 15,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 432103,
-          "MHP": 150093,
-          "HUDAPAR": 6992,
-          "VP": 2395,
-          "HDP": 172831,
-          "CHP": 337497,
-          "SAADET": 13738,
-          "IYI": 159022,
-          "INDEPENDENT": 413
-        },
-        "alliance": {
-          "CUMHUR": 11404,
-          "MILLET": 2779
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 33.51,
-          "MHP": 11.64,
-          "HUDAPAR": 0.54,
-          "VP": 0.18,
-          "HDP": 13.4,
-          "CHP": 26.17,
-          "SAADET": 1.06,
-          "IYI": 12.33,
-          "INDEPENDENT": 13.738
-        },
-        "alliance": {
-          "CUMHUR": 0.88,
-          "MILLET": 0.21
-        }
-      }
-    },
-    "deputyCount": 15
+      "AKP": 33.51,
+      "MHP": 11.64,
+      "HUDAPAR": 0.54,
+      "VP": 0.18,
+      "HDP": 13.4,
+      "CHP": 26.17,
+      "SAADET": 1.06,
+      "IYIP": 12.33,
+      "INDEPENDENT": 13.738
+    }
   },
   {
-    "cityCode": "2",
-    "cityName": "ADIYAMAN",
-    "registeredVoterCount": 399766,
-    "voterCount": 345098,
-    "validVoterCount": 336384,
+    "id": "2",
+    "name": "ADIYAMAN",
+    "deputyCount": 5,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 183772,
-          "MHP": 30521,
-          "HUDAPAR": 4249,
-          "VP": 571,
-          "HDP": 51641,
-          "CHP": 39720,
-          "SAADET": 5514,
-          "IYI": 17753,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2280,
-          "MILLET": 363
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 54.63,
-          "MHP": 9.07,
-          "HUDAPAR": 1.26,
-          "VP": 0.16,
-          "HDP": 15.35,
-          "CHP": 11.8,
-          "SAADET": 1.63,
-          "IYI": 5.27,
-          "INDEPENDENT": 5.514
-        },
-        "alliance": {
-          "CUMHUR": 0.67,
-          "MILLET": 0.1
-        }
-      }
-    },
-    "deputyCount": 5
+      "AKP": 54.63,
+      "MHP": 9.07,
+      "HUDAPAR": 1.26,
+      "VP": 0.16,
+      "HDP": 15.35,
+      "CHP": 11.8,
+      "SAADET": 1.63,
+      "IYIP": 5.27,
+      "INDEPENDENT": 5.514
+    }
   },
   {
-    "cityCode": "3",
-    "cityName": "AFYONKARAHİSAR",
-    "registeredVoterCount": 507706,
-    "voterCount": 459166,
-    "validVoterCount": 447355,
+    "id": "3",
+    "name": "AFYONKARAHİSAR",
+    "deputyCount": 6,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 243613,
-          "MHP": 62038,
-          "HUDAPAR": 977,
-          "VP": 1138,
-          "HDP": 3382,
-          "CHP": 63810,
-          "SAADET": 4965,
-          "IYI": 60706,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 5846,
-          "MILLET": 880
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 54.45,
-          "MHP": 13.86,
-          "HUDAPAR": 0.21,
-          "VP": 0.25,
-          "HDP": 0.75,
-          "CHP": 14.26,
-          "SAADET": 1.1,
-          "IYI": 13.56,
-          "INDEPENDENT": 4.965
-        },
-        "alliance": {
-          "CUMHUR": 1.3,
-          "MILLET": 0.19
-        }
-      }
-    },
-    "deputyCount": 6
+      "AKP": 54.45,
+      "MHP": 13.86,
+      "HUDAPAR": 0.21,
+      "VP": 0.25,
+      "HDP": 0.75,
+      "CHP": 14.26,
+      "SAADET": 1.1,
+      "IYIP": 13.56,
+      "INDEPENDENT": 4.965
+    }
   },
   {
-    "cityCode": "4",
-    "cityName": "AĞRI",
-    "registeredVoterCount": 296375,
-    "voterCount": 232345,
-    "validVoterCount": 224267,
+    "id": "4",
+    "name": "AĞRI",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 62284,
-          "MHP": 5171,
-          "HUDAPAR": 1731,
-          "VP": 402,
-          "HDP": 142683,
-          "CHP": 5421,
-          "SAADET": 1813,
-          "IYI": 3501,
-          "INDEPENDENT": 287
-        },
-        "alliance": {
-          "CUMHUR": 821,
-          "MILLET": 153
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 27.77,
-          "MHP": 2.3,
-          "HUDAPAR": 0.77,
-          "VP": 0.17,
-          "HDP": 63.62,
-          "CHP": 2.41,
-          "SAADET": 0.8,
-          "IYI": 1.56,
-          "INDEPENDENT": 1.813
-        },
-        "alliance": {
-          "CUMHUR": 0.36,
-          "MILLET": 0.06
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 27.77,
+      "MHP": 2.3,
+      "HUDAPAR": 0.77,
+      "VP": 0.17,
+      "HDP": 63.62,
+      "CHP": 2.41,
+      "SAADET": 0.8,
+      "IYIP": 1.56,
+      "INDEPENDENT": 1.813
+    }
   },
   {
-    "cityCode": "68",
-    "cityName": "AKSARAY",
-    "registeredVoterCount": 267068,
-    "voterCount": 232175,
-    "validVoterCount": 226978,
+    "id": "68",
+    "name": "AKSARAY",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 125326,
-          "MHP": 46588,
-          "HUDAPAR": 639,
-          "VP": 441,
-          "HDP": 2461,
-          "CHP": 21756,
-          "SAADET": 1886,
-          "IYI": 24193,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 3337,
-          "MILLET": 351
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 55.21,
-          "MHP": 20.52,
-          "HUDAPAR": 0.28,
-          "VP": 0.19,
-          "HDP": 1.08,
-          "CHP": 9.58,
-          "SAADET": 0.83,
-          "IYI": 10.65,
-          "INDEPENDENT": 1.886
-        },
-        "alliance": {
-          "CUMHUR": 1.47,
-          "MILLET": 0.15
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 55.21,
+      "MHP": 20.52,
+      "HUDAPAR": 0.28,
+      "VP": 0.19,
+      "HDP": 1.08,
+      "CHP": 9.58,
+      "SAADET": 0.83,
+      "IYIP": 10.65,
+      "INDEPENDENT": 1.886
+    }
   },
   {
-    "cityCode": "5",
-    "cityName": "AMASYA",
-    "registeredVoterCount": 246896,
-    "voterCount": 225566,
-    "validVoterCount": 220743,
+    "id": "5",
+    "name": "AMASYA",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 101546,
-          "MHP": 27198,
-          "HUDAPAR": 359,
-          "VP": 447,
-          "HDP": 3982,
-          "CHP": 54803,
-          "SAADET": 2469,
-          "IYI": 27122,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2350,
-          "MILLET": 467
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 46,
-          "MHP": 12.32,
-          "HUDAPAR": 0.16,
-          "VP": 0.2,
-          "HDP": 1.8,
-          "CHP": 24.82,
-          "SAADET": 1.11,
-          "IYI": 12.28,
-          "INDEPENDENT": 2.469
-        },
-        "alliance": {
-          "CUMHUR": 1.06,
-          "MILLET": 0.21
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 46,
+      "MHP": 12.32,
+      "HUDAPAR": 0.16,
+      "VP": 0.2,
+      "HDP": 1.8,
+      "CHP": 24.82,
+      "SAADET": 1.11,
+      "IYIP": 12.28,
+      "INDEPENDENT": 2.469
+    }
   },
   {
-    "cityCode": "6",
-    "cityName": "ANKARA-1",
-    "registeredVoterCount": 1401859,
-    "voterCount": 1250107,
-    "validVoterCount": 1231433,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 364122,
-          "MHP": 130264,
-          "HUDAPAR": 1146,
-          "VP": 3178,
-          "HDP": 105479,
-          "CHP": 440621,
-          "SAADET": 16959,
-          "IYI": 153949,
-          "INDEPENDENT": 1024
-        },
-        "alliance": {
-          "CUMHUR": 10342,
-          "MILLET": 4349
-        }
-      },
-      "percentage": {
-        "parties": {
+    "id": "6",
+    "name": "ANKARA",
+    "distincts": [
+      {
+        "name": "1. Bölge",
+        "deputyCount": 13,
+        "results": {
           "AKP": 29.56,
           "MHP": 10.57,
           "HUDAPAR": 0.09,
@@ -296,43 +110,14 @@
           "HDP": 8.56,
           "CHP": 35.78,
           "SAADET": 1.37,
-          "IYI": 12.5,
+          "IYIP": 12.5,
           "INDEPENDENT": 16.959
-        },
-        "alliance": {
-          "CUMHUR": 0.83,
-          "MILLET": 0.35
-        }
-      }
-    },
-    "deputyCount": 13
-  },
-  {
-    "cityCode": "6",
-    "cityName": "ANKARA-2",
-    "registeredVoterCount": 1185237,
-    "voterCount": 1056573,
-    "validVoterCount": 1040194,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 520733,
-          "MHP": 154449,
-          "HUDAPAR": 1226,
-          "VP": 1952,
-          "HDP": 39635,
-          "CHP": 180734,
-          "SAADET": 16096,
-          "IYI": 109646,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 13379,
-          "MILLET": 2344
         }
       },
-      "percentage": {
-        "parties": {
+      {
+        "name": "2. Bölge",
+        "deputyCount": 11,
+        "results": {
           "AKP": 50.06,
           "MHP": 14.84,
           "HUDAPAR": 0.11,
@@ -340,43 +125,14 @@
           "HDP": 3.81,
           "CHP": 17.37,
           "SAADET": 1.54,
-          "IYI": 10.54,
+          "IYIP": 10.54,
           "INDEPENDENT": 16.096
-        },
-        "alliance": {
-          "CUMHUR": 1.28,
-          "MILLET": 0.22
-        }
-      }
-    },
-    "deputyCount": 11
-  },
-  {
-    "cityCode": "6",
-    "cityName": "ANKARA-3",
-    "registeredVoterCount": 1322490,
-    "voterCount": 1185636,
-    "validVoterCount": 1168663,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 466935,
-          "MHP": 162684,
-          "HUDAPAR": 1325,
-          "VP": 2234,
-          "HDP": 63678,
-          "CHP": 278375,
-          "SAADET": 18679,
-          "IYI": 158152,
-          "INDEPENDENT": 469
-        },
-        "alliance": {
-          "CUMHUR": 12546,
-          "MILLET": 3586
         }
       },
-      "percentage": {
-        "parties": {
+      {
+        "name": "3. Bölge",
+        "deputyCount": 12,
+        "results": {
           "AKP": 39.95,
           "MHP": 13.92,
           "HUDAPAR": 0.11,
@@ -384,615 +140,228 @@
           "HDP": 5.44,
           "CHP": 23.81,
           "SAADET": 1.59,
-          "IYI": 13.53,
+          "IYIP": 13.53,
           "INDEPENDENT": 18.679
-        },
-        "alliance": {
-          "CUMHUR": 1.07,
-          "MILLET": 0.3
         }
       }
-    },
-    "deputyCount": 12
+    ]
   },
   {
-    "cityCode": "7",
-    "cityName": "ANTALYA",
-    "registeredVoterCount": 1683522,
-    "voterCount": 1468770,
-    "validVoterCount": 1435890,
+    "id": "7",
+    "name": "ANTALYA",
+    "deputyCount": 17,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 485103,
-          "MHP": 143406,
-          "HUDAPAR": 3131,
-          "VP": 3798,
-          "HDP": 100782,
-          "CHP": 420963,
-          "SAADET": 13781,
-          "IYI": 246905,
-          "INDEPENDENT": 1285
-        },
-        "alliance": {
-          "CUMHUR": 12237,
-          "MILLET": 4499
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 33.78,
-          "MHP": 9.98,
-          "HUDAPAR": 0.21,
-          "VP": 0.26,
-          "HDP": 7.01,
-          "CHP": 29.31,
-          "SAADET": 0.95,
-          "IYI": 17.19,
-          "INDEPENDENT": 13.781
-        },
-        "alliance": {
-          "CUMHUR": 0.85,
-          "MILLET": 0.31
-        }
-      }
-    },
-    "deputyCount": 17
+      "AKP": 33.78,
+      "MHP": 9.98,
+      "HUDAPAR": 0.21,
+      "VP": 0.26,
+      "HDP": 7.01,
+      "CHP": 29.31,
+      "SAADET": 0.95,
+      "IYIP": 17.19,
+      "INDEPENDENT": 13.781
+    }
   },
   {
-    "cityCode": "75",
-    "cityName": "ARDAHAN",
-    "registeredVoterCount": 69575,
-    "voterCount": 58863,
-    "validVoterCount": 56674,
+    "id": "75",
+    "name": "ARDAHAN",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 20431,
-          "MHP": 3746,
-          "HUDAPAR": 203,
-          "VP": 202,
-          "HDP": 13358,
-          "CHP": 14688,
-          "SAADET": 569,
-          "IYI": 2900,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 435,
-          "MILLET": 142
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 36.05,
-          "MHP": 6.6,
-          "HUDAPAR": 0.35,
-          "VP": 0.35,
-          "HDP": 23.56,
-          "CHP": 25.91,
-          "SAADET": 1,
-          "IYI": 5.11,
-          "INDEPENDENT": 569
-        },
-        "alliance": {
-          "CUMHUR": 0.76,
-          "MILLET": 0.25
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 36.05,
+      "MHP": 6.6,
+      "HUDAPAR": 0.35,
+      "VP": 0.35,
+      "HDP": 23.56,
+      "CHP": 25.91,
+      "SAADET": 1,
+      "IYIP": 5.11,
+      "INDEPENDENT": 569
+    }
   },
   {
-    "cityCode": "8",
-    "cityName": "ARTVİN",
-    "registeredVoterCount": 131386,
-    "voterCount": 115066,
-    "validVoterCount": 111991,
+    "id": "8",
+    "name": "ARTVİN",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 44100,
-          "MHP": 11269,
-          "HUDAPAR": 325,
-          "VP": 423,
-          "HDP": 5076,
-          "CHP": 36105,
-          "SAADET": 1641,
-          "IYI": 11600,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1102,
-          "MILLET": 350
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 39.37,
-          "MHP": 10.06,
-          "HUDAPAR": 0.29,
-          "VP": 0.37,
-          "HDP": 4.53,
-          "CHP": 32.23,
-          "SAADET": 1.46,
-          "IYI": 10.35,
-          "INDEPENDENT": 1.641
-        },
-        "alliance": {
-          "CUMHUR": 0.98,
-          "MILLET": 0.31
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 39.37,
+      "MHP": 10.06,
+      "HUDAPAR": 0.29,
+      "VP": 0.37,
+      "HDP": 4.53,
+      "CHP": 32.23,
+      "SAADET": 1.46,
+      "IYIP": 10.35,
+      "INDEPENDENT": 1.641
+    }
   },
   {
-    "cityCode": "9",
-    "cityName": "AYDIN",
-    "registeredVoterCount": 816894,
-    "voterCount": 726243,
-    "validVoterCount": 709539,
+    "id": "9",
+    "name": "AYDIN",
+    "deputyCount": 8,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 222373,
-          "MHP": 56416,
-          "HUDAPAR": 1795,
-          "VP": 2594,
-          "HDP": 64644,
-          "CHP": 242894,
-          "SAADET": 4939,
-          "IYI": 106555,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 5032,
-          "MILLET": 2297
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 31.34,
-          "MHP": 7.95,
-          "HUDAPAR": 0.25,
-          "VP": 0.36,
-          "HDP": 9.11,
-          "CHP": 34.23,
-          "SAADET": 0.69,
-          "IYI": 15.01,
-          "INDEPENDENT": 4.939
-        },
-        "alliance": {
-          "CUMHUR": 0.7,
-          "MILLET": 0.32
-        }
-      }
-    },
-    "deputyCount": 8
+      "AKP": 31.34,
+      "MHP": 7.95,
+      "HUDAPAR": 0.25,
+      "VP": 0.36,
+      "HDP": 9.11,
+      "CHP": 34.23,
+      "SAADET": 0.69,
+      "IYIP": 15.01,
+      "INDEPENDENT": 4.939
+    }
   },
   {
-    "cityCode": "10",
-    "cityName": "BALIKESİR",
-    "registeredVoterCount": 947177,
-    "voterCount": 858214,
-    "validVoterCount": 838607,
+    "id": "10",
+    "name": "BALIKESİR",
+    "deputyCount": 9,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 338879,
-          "MHP": 62255,
-          "HUDAPAR": 1500,
-          "VP": 2812,
-          "HDP": 32275,
-          "CHP": 256303,
-          "SAADET": 9811,
-          "IYI": 125333,
-          "INDEPENDENT": 225
-        },
-        "alliance": {
-          "CUMHUR": 6665,
-          "MILLET": 2549
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 40.4,
-          "MHP": 7.42,
-          "HUDAPAR": 0.17,
-          "VP": 0.33,
-          "HDP": 3.84,
-          "CHP": 30.56,
-          "SAADET": 1.16,
-          "IYI": 14.94,
-          "INDEPENDENT": 9.811
-        },
-        "alliance": {
-          "CUMHUR": 0.79,
-          "MILLET": 0.3
-        }
-      }
-    },
-    "deputyCount": 9
+      "AKP": 40.4,
+      "MHP": 7.42,
+      "HUDAPAR": 0.17,
+      "VP": 0.33,
+      "HDP": 3.84,
+      "CHP": 30.56,
+      "SAADET": 1.16,
+      "IYIP": 14.94,
+      "INDEPENDENT": 9.811
+    }
   },
   {
-    "cityCode": "74",
-    "cityName": "BARTIN",
-    "registeredVoterCount": 146984,
-    "voterCount": 128658,
-    "validVoterCount": 123095,
+    "id": "74",
+    "name": "BARTIN",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 56620,
-          "MHP": 20894,
-          "HUDAPAR": 345,
-          "VP": 662,
-          "HDP": 1502,
-          "CHP": 31404,
-          "SAADET": 2639,
-          "IYI": 7199,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1500,
-          "MILLET": 330
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 45.99,
-          "MHP": 16.97,
-          "HUDAPAR": 0.28,
-          "VP": 0.53,
-          "HDP": 1.22,
-          "CHP": 25.51,
-          "SAADET": 2.14,
-          "IYI": 5.84,
-          "INDEPENDENT": 2.639
-        },
-        "alliance": {
-          "CUMHUR": 1.21,
-          "MILLET": 0.26
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 45.99,
+      "MHP": 16.97,
+      "HUDAPAR": 0.28,
+      "VP": 0.53,
+      "HDP": 1.22,
+      "CHP": 25.51,
+      "SAADET": 2.14,
+      "IYIP": 5.84,
+      "INDEPENDENT": 2.639
+    }
   },
   {
-    "cityCode": "72",
-    "cityName": "BATMAN",
-    "registeredVoterCount": 342380,
-    "voterCount": 293091,
-    "validVoterCount": 284060,
+    "id": "72",
+    "name": "BATMAN",
+    "deputyCount": 5,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 67789,
-          "MHP": 2833,
-          "HUDAPAR": 0,
-          "VP": 420,
-          "HDP": 180318,
-          "CHP": 3740,
-          "SAADET": 8971,
-          "IYI": 3127,
-          "INDEPENDENT": 15998
-        },
-        "alliance": {
-          "CUMHUR": 633,
-          "MILLET": 231
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 23.86,
-          "MHP": 0.99,
-          "HUDAPAR": 0,
-          "VP": 0.14,
-          "HDP": 63.47,
-          "CHP": 1.31,
-          "SAADET": 3.15,
-          "IYI": 1.1,
-          "INDEPENDENT": 8.971
-        },
-        "alliance": {
-          "CUMHUR": 0.22,
-          "MILLET": 0.08
-        }
-      }
-    },
-    "deputyCount": 5
+      "AKP": 23.86,
+      "MHP": 0.99,
+      "HUDAPAR": 0,
+      "VP": 0.14,
+      "HDP": 63.47,
+      "CHP": 1.31,
+      "SAADET": 3.15,
+      "IYIP": 1.1,
+      "INDEPENDENT": 8.971
+    }
   },
   {
-    "cityCode": "69",
-    "cityName": "BAYBURT",
-    "registeredVoterCount": 56249,
-    "voterCount": 48364,
-    "validVoterCount": 47637,
+    "id": "69",
+    "name": "BAYBURT",
+    "deputyCount": 1,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 27008,
-          "MHP": 13128,
-          "HUDAPAR": 77,
-          "VP": 47,
-          "HDP": 338,
-          "CHP": 1823,
-          "SAADET": 1571,
-          "IYI": 2941,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 662,
-          "MILLET": 42
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 56.69,
-          "MHP": 27.55,
-          "HUDAPAR": 0.16,
-          "VP": 0.09,
-          "HDP": 0.7,
-          "CHP": 3.82,
-          "SAADET": 3.29,
-          "IYI": 6.17,
-          "INDEPENDENT": 1.571
-        },
-        "alliance": {
-          "CUMHUR": 1.38,
-          "MILLET": 0.08
-        }
-      }
-    },
-    "deputyCount": 1
+      "AKP": 56.69,
+      "MHP": 27.55,
+      "HUDAPAR": 0.16,
+      "VP": 0.09,
+      "HDP": 0.7,
+      "CHP": 3.82,
+      "SAADET": 3.29,
+      "IYIP": 6.17,
+      "INDEPENDENT": 1.571
+    }
   },
   {
-    "cityCode": "11",
-    "cityName": "BİLECİK",
-    "registeredVoterCount": 154403,
-    "voterCount": 140203,
-    "validVoterCount": 137214,
+    "id": "11",
+    "name": "BİLECİK",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 58110,
-          "MHP": 12666,
-          "HUDAPAR": 454,
-          "VP": 375,
-          "HDP": 4040,
-          "CHP": 38807,
-          "SAADET": 1539,
-          "IYI": 19656,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1160,
-          "MILLET": 407
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 42.34,
-          "MHP": 9.23,
-          "HUDAPAR": 0.33,
-          "VP": 0.27,
-          "HDP": 2.94,
-          "CHP": 28.28,
-          "SAADET": 1.12,
-          "IYI": 14.32,
-          "INDEPENDENT": 1.539
-        },
-        "alliance": {
-          "CUMHUR": 0.84,
-          "MILLET": 0.29
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 42.34,
+      "MHP": 9.23,
+      "HUDAPAR": 0.33,
+      "VP": 0.27,
+      "HDP": 2.94,
+      "CHP": 28.28,
+      "SAADET": 1.12,
+      "IYIP": 14.32,
+      "INDEPENDENT": 1.539
+    }
   },
   {
-    "cityCode": "12",
-    "cityName": "BİNGÖL",
-    "registeredVoterCount": 181265,
-    "voterCount": 147204,
-    "validVoterCount": 140415,
+    "id": "12",
+    "name": "BİNGÖL",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 77051,
-          "MHP": 8075,
-          "HUDAPAR": 6296,
-          "VP": 332,
-          "HDP": 38050,
-          "CHP": 2503,
-          "SAADET": 1517,
-          "IYI": 5661,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 801,
-          "MILLET": 129
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 54.87,
-          "MHP": 5.75,
-          "HUDAPAR": 4.48,
-          "VP": 0.23,
-          "HDP": 27.09,
-          "CHP": 1.78,
-          "SAADET": 1.08,
-          "IYI": 4.03,
-          "INDEPENDENT": 1.517
-        },
-        "alliance": {
-          "CUMHUR": 0.57,
-          "MILLET": 0.09
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 54.87,
+      "MHP": 5.75,
+      "HUDAPAR": 4.48,
+      "VP": 0.23,
+      "HDP": 27.09,
+      "CHP": 1.78,
+      "SAADET": 1.08,
+      "IYIP": 4.03,
+      "INDEPENDENT": 1.517
+    }
   },
   {
-    "cityCode": "13",
-    "cityName": "BİTLİS",
-    "registeredVoterCount": 198961,
-    "voterCount": 165568,
-    "validVoterCount": 159518,
+    "id": "13",
+    "name": "BİTLİS",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 70488,
-          "MHP": 6242,
-          "HUDAPAR": 1809,
-          "VP": 526,
-          "HDP": 69110,
-          "CHP": 3583,
-          "SAADET": 1767,
-          "IYI": 5142,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 741,
-          "MILLET": 110
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 44.18,
-          "MHP": 3.91,
-          "HUDAPAR": 1.13,
-          "VP": 0.32,
-          "HDP": 43.32,
-          "CHP": 2.24,
-          "SAADET": 1.1,
-          "IYI": 3.22,
-          "INDEPENDENT": 1.767
-        },
-        "alliance": {
-          "CUMHUR": 0.46,
-          "MILLET": 0.06
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 44.18,
+      "MHP": 3.91,
+      "HUDAPAR": 1.13,
+      "VP": 0.32,
+      "HDP": 43.32,
+      "CHP": 2.24,
+      "SAADET": 1.1,
+      "IYIP": 3.22,
+      "INDEPENDENT": 1.767
+    }
   },
   {
-    "cityCode": "14",
-    "cityName": "BOLU",
-    "registeredVoterCount": 223121,
-    "voterCount": 199734,
-    "validVoterCount": 195575,
+    "id": "14",
+    "name": "BOLU",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 100154,
-          "MHP": 29100,
-          "HUDAPAR": 374,
-          "VP": 562,
-          "HDP": 3140,
-          "CHP": 39527,
-          "SAADET": 2998,
-          "IYI": 16842,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2353,
-          "MILLET": 525
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 51.21,
-          "MHP": 14.87,
-          "HUDAPAR": 0.19,
-          "VP": 0.28,
-          "HDP": 1.6,
-          "CHP": 20.21,
-          "SAADET": 1.53,
-          "IYI": 8.61,
-          "INDEPENDENT": 2.998
-        },
-        "alliance": {
-          "CUMHUR": 1.2,
-          "MILLET": 0.26
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 51.21,
+      "MHP": 14.87,
+      "HUDAPAR": 0.19,
+      "VP": 0.28,
+      "HDP": 1.6,
+      "CHP": 20.21,
+      "SAADET": 1.53,
+      "IYIP": 8.61,
+      "INDEPENDENT": 2.998
+    }
   },
   {
-    "cityCode": "15",
-    "cityName": "BURDUR",
-    "registeredVoterCount": 196733,
-    "voterCount": 177117,
-    "validVoterCount": 171133,
+    "id": "15",
+    "name": "BURDUR",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 72191,
-          "MHP": 21284,
-          "HUDAPAR": 564,
-          "VP": 736,
-          "HDP": 2468,
-          "CHP": 34533,
-          "SAADET": 2643,
-          "IYI": 34726,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1542,
-          "MILLET": 446
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 42.18,
-          "MHP": 12.43,
-          "HUDAPAR": 0.32,
-          "VP": 0.43,
-          "HDP": 1.44,
-          "CHP": 20.17,
-          "SAADET": 1.54,
-          "IYI": 20.29,
-          "INDEPENDENT": 2.643
-        },
-        "alliance": {
-          "CUMHUR": 0.9,
-          "MILLET": 0.26
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 42.18,
+      "MHP": 12.43,
+      "HUDAPAR": 0.32,
+      "VP": 0.43,
+      "HDP": 1.44,
+      "CHP": 20.17,
+      "SAADET": 1.54,
+      "IYIP": 20.29,
+      "INDEPENDENT": 2.643
+    }
   },
   {
-    "cityCode": "16",
-    "cityName": "BURSA-1",
-    "registeredVoterCount": 1102185,
-    "voterCount": 991424,
-    "validVoterCount": 972351,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 410195,
-          "MHP": 95343,
-          "HUDAPAR": 1684,
-          "VP": 2313,
-          "HDP": 42473,
-          "CHP": 250893,
-          "SAADET": 16150,
-          "IYI": 140212,
-          "INDEPENDENT": 885
-        },
-        "alliance": {
-          "CUMHUR": 9074,
-          "MILLET": 3129
-        }
-      },
-      "percentage": {
-        "parties": {
+    "id": "16",
+    "name": "BURSA",
+    "distincts": [
+      {
+        "name": "1. Bölge",
+        "deputyCount": 10,
+        "results": {
           "AKP": 42.18,
           "MHP": 9.8,
           "HUDAPAR": 0.17,
@@ -1000,43 +369,14 @@
           "HDP": 4.36,
           "CHP": 25.8,
           "SAADET": 1.66,
-          "IYI": 14.41,
+          "IYIP": 14.41,
           "INDEPENDENT": 16.15
-        },
-        "alliance": {
-          "CUMHUR": 0.93,
-          "MILLET": 0.32
-        }
-      }
-    },
-    "deputyCount": 10
-  },
-  {
-    "cityCode": "16",
-    "cityName": "BURSA-2",
-    "registeredVoterCount": 1047152,
-    "voterCount": 938619,
-    "validVoterCount": 921044,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 445559,
-          "MHP": 105768,
-          "HUDAPAR": 2742,
-          "VP": 2248,
-          "HDP": 58408,
-          "CHP": 178822,
-          "SAADET": 16646,
-          "IYI": 98604,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 10029,
-          "MILLET": 2218
         }
       },
-      "percentage": {
-        "parties": {
+      {
+        "name": "2. Bölge",
+        "deputyCount": 10,
+        "results": {
           "AKP": 48.37,
           "MHP": 11.48,
           "HUDAPAR": 0.29,
@@ -1044,835 +384,308 @@
           "HDP": 6.34,
           "CHP": 19.41,
           "SAADET": 1.8,
-          "IYI": 10.7,
+          "IYIP": 10.7,
           "INDEPENDENT": 16.646
-        },
-        "alliance": {
-          "CUMHUR": 1.08,
-          "MILLET": 0.24
         }
       }
-    },
-    "deputyCount": 10
+    ]
   },
   {
-    "cityCode": "17",
-    "cityName": "ÇANAKKALE",
-    "registeredVoterCount": 407273,
-    "voterCount": 371045,
-    "validVoterCount": 362838,
+    "id": "17",
+    "name": "ÇANAKKALE",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 131900,
-          "MHP": 24648,
-          "HUDAPAR": 699,
-          "VP": 1215,
-          "HDP": 12069,
-          "CHP": 123725,
-          "SAADET": 2786,
-          "IYI": 61873,
-          "INDEPENDENT": 263
-        },
-        "alliance": {
-          "CUMHUR": 2476,
-          "MILLET": 1184
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 36.35,
-          "MHP": 6.79,
-          "HUDAPAR": 0.19,
-          "VP": 0.33,
-          "HDP": 3.32,
-          "CHP": 34.09,
-          "SAADET": 0.76,
-          "IYI": 17.05,
-          "INDEPENDENT": 2.786
-        },
-        "alliance": {
-          "CUMHUR": 0.68,
-          "MILLET": 0.32
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 36.35,
+      "MHP": 6.79,
+      "HUDAPAR": 0.19,
+      "VP": 0.33,
+      "HDP": 3.32,
+      "CHP": 34.09,
+      "SAADET": 0.76,
+      "IYIP": 17.05,
+      "INDEPENDENT": 2.786
+    }
   },
   {
-    "cityCode": "18",
-    "cityName": "ÇANKIRI",
-    "registeredVoterCount": 134311,
-    "voterCount": 118106,
-    "validVoterCount": 115544,
+    "id": "18",
+    "name": "ÇANKIRI",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 67305,
-          "MHP": 22626,
-          "HUDAPAR": 203,
-          "VP": 241,
-          "HDP": 702,
-          "CHP": 7277,
-          "SAADET": 1270,
-          "IYI": 13856,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1839,
-          "MILLET": 225
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 58.25,
-          "MHP": 19.58,
-          "HUDAPAR": 0.17,
-          "VP": 0.2,
-          "HDP": 0.6,
-          "CHP": 6.29,
-          "SAADET": 1.09,
-          "IYI": 11.99,
-          "INDEPENDENT": 1.27
-        },
-        "alliance": {
-          "CUMHUR": 1.59,
-          "MILLET": 0.19
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 58.25,
+      "MHP": 19.58,
+      "HUDAPAR": 0.17,
+      "VP": 0.2,
+      "HDP": 0.6,
+      "CHP": 6.29,
+      "SAADET": 1.09,
+      "IYIP": 11.99,
+      "INDEPENDENT": 1.27
+    }
   },
   {
-    "cityCode": "19",
-    "cityName": "ÇORUM",
-    "registeredVoterCount": 391400,
-    "voterCount": 356078,
-    "validVoterCount": 348188,
+    "id": "19",
+    "name": "ÇORUM",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 178083,
-          "MHP": 48622,
-          "HUDAPAR": 620,
-          "VP": 840,
-          "HDP": 11230,
-          "CHP": 70591,
-          "SAADET": 3801,
-          "IYI": 29586,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 4157,
-          "MILLET": 658
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 51.14,
-          "MHP": 13.96,
-          "HUDAPAR": 0.17,
-          "VP": 0.24,
-          "HDP": 3.22,
-          "CHP": 20.27,
-          "SAADET": 1.09,
-          "IYI": 8.49,
-          "INDEPENDENT": 3.801
-        },
-        "alliance": {
-          "CUMHUR": 1.19,
-          "MILLET": 0.18
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 51.14,
+      "MHP": 13.96,
+      "HUDAPAR": 0.17,
+      "VP": 0.24,
+      "HDP": 3.22,
+      "CHP": 20.27,
+      "SAADET": 1.09,
+      "IYIP": 8.49,
+      "INDEPENDENT": 3.801
+    }
   },
   {
-    "cityCode": "20",
-    "cityName": "DENİZLİ",
-    "registeredVoterCount": 749055,
-    "voterCount": 682660,
-    "validVoterCount": 663996,
+    "id": "20",
+    "name": "DENİZLİ",
+    "deputyCount": 7,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 263997,
-          "MHP": 60468,
-          "HUDAPAR": 1714,
-          "VP": 2121,
-          "HDP": 24029,
-          "CHP": 187080,
-          "SAADET": 5532,
-          "IYI": 111117,
-          "INDEPENDENT": 573
-        },
-        "alliance": {
-          "CUMHUR": 5282,
-          "MILLET": 2083
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 39.75,
-          "MHP": 9.1,
-          "HUDAPAR": 0.25,
-          "VP": 0.31,
-          "HDP": 3.61,
-          "CHP": 28.17,
-          "SAADET": 0.83,
-          "IYI": 16.73,
-          "INDEPENDENT": 5.532
-        },
-        "alliance": {
-          "CUMHUR": 0.79,
-          "MILLET": 0.31
-        }
-      }
-    },
-    "deputyCount": 7
+      "AKP": 39.75,
+      "MHP": 9.1,
+      "HUDAPAR": 0.25,
+      "VP": 0.31,
+      "HDP": 3.61,
+      "CHP": 28.17,
+      "SAADET": 0.83,
+      "IYIP": 16.73,
+      "INDEPENDENT": 5.532
+    }
   },
   {
-    "cityCode": "21",
-    "cityName": "DİYARBAKIR",
-    "registeredVoterCount": 1024929,
-    "voterCount": 856317,
-    "validVoterCount": 826242,
+    "id": "21",
+    "name": "DİYARBAKIR",
+    "deputyCount": 12,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 167805,
-          "MHP": 9828,
-          "HUDAPAR": 0,
-          "VP": 1155,
-          "HDP": 554172,
-          "CHP": 16562,
-          "SAADET": 13955,
-          "IYI": 22575,
-          "INDEPENDENT": 37755
-        },
-        "alliance": {
-          "CUMHUR": 1828,
-          "MILLET": 607
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 20.3,
-          "MHP": 1.18,
-          "HUDAPAR": 0,
-          "VP": 0.13,
-          "HDP": 67.07,
-          "CHP": 2,
-          "SAADET": 1.68,
-          "IYI": 2.73,
-          "INDEPENDENT": 13.955
-        },
-        "alliance": {
-          "CUMHUR": 0.22,
-          "MILLET": 0.07
-        }
-      }
-    },
-    "deputyCount": 12
+      "AKP": 20.3,
+      "MHP": 1.18,
+      "HUDAPAR": 0,
+      "VP": 0.13,
+      "HDP": 67.07,
+      "CHP": 2,
+      "SAADET": 1.68,
+      "IYIP": 2.73,
+      "INDEPENDENT": 13.955
+    }
   },
   {
-    "cityCode": "81",
-    "cityName": "DÜZCE",
-    "registeredVoterCount": 268337,
-    "voterCount": 244322,
-    "validVoterCount": 239644,
+    "id": "81",
+    "name": "DÜZCE",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 132021,
-          "MHP": 44739,
-          "HUDAPAR": 303,
-          "VP": 624,
-          "HDP": 3818,
-          "CHP": 34297,
-          "SAADET": 3584,
-          "IYI": 16221,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 3541,
-          "MILLET": 496
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 55.09,
-          "MHP": 18.66,
-          "HUDAPAR": 0.12,
-          "VP": 0.26,
-          "HDP": 1.59,
-          "CHP": 14.31,
-          "SAADET": 1.49,
-          "IYI": 6.76,
-          "INDEPENDENT": 3.584
-        },
-        "alliance": {
-          "CUMHUR": 1.47,
-          "MILLET": 0.2
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 55.09,
+      "MHP": 18.66,
+      "HUDAPAR": 0.12,
+      "VP": 0.26,
+      "HDP": 1.59,
+      "CHP": 14.31,
+      "SAADET": 1.49,
+      "IYIP": 6.76,
+      "INDEPENDENT": 3.584
+    }
   },
   {
-    "cityCode": "22",
-    "cityName": "EDİRNE",
-    "registeredVoterCount": 311104,
-    "voterCount": 275162,
-    "validVoterCount": 268077,
+    "id": "22",
+    "name": "EDİRNE",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 73630,
-          "MHP": 13104,
-          "HUDAPAR": 607,
-          "VP": 863,
-          "HDP": 8744,
-          "CHP": 123252,
-          "SAADET": 2765,
-          "IYI": 42614,
-          "INDEPENDENT": 218
-        },
-        "alliance": {
-          "CUMHUR": 1247,
-          "MILLET": 1033
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 27.46,
-          "MHP": 4.88,
-          "HUDAPAR": 0.22,
-          "VP": 0.32,
-          "HDP": 3.26,
-          "CHP": 45.97,
-          "SAADET": 1.03,
-          "IYI": 15.89,
-          "INDEPENDENT": 2.765
-        },
-        "alliance": {
-          "CUMHUR": 0.46,
-          "MILLET": 0.38
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 27.46,
+      "MHP": 4.88,
+      "HUDAPAR": 0.22,
+      "VP": 0.32,
+      "HDP": 3.26,
+      "CHP": 45.97,
+      "SAADET": 1.03,
+      "IYIP": 15.89,
+      "INDEPENDENT": 2.765
+    }
   },
   {
-    "cityCode": "23",
-    "cityName": "ELAZIĞ",
-    "registeredVoterCount": 412412,
-    "voterCount": 349331,
-    "validVoterCount": 340826,
+    "id": "23",
+    "name": "ELAZIĞ",
+    "deputyCount": 5,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 183604,
-          "MHP": 46028,
-          "HUDAPAR": 5197,
-          "VP": 559,
-          "HDP": 33633,
-          "CHP": 35651,
-          "SAADET": 6078,
-          "IYI": 26396,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 3248,
-          "MILLET": 432
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 53.87,
-          "MHP": 13.5,
-          "HUDAPAR": 1.52,
-          "VP": 0.16,
-          "HDP": 9.86,
-          "CHP": 10.46,
-          "SAADET": 1.78,
-          "IYI": 7.74,
-          "INDEPENDENT": 6.078
-        },
-        "alliance": {
-          "CUMHUR": 0.95,
-          "MILLET": 0.12
-        }
-      }
-    },
-    "deputyCount": 5
+      "AKP": 53.87,
+      "MHP": 13.5,
+      "HUDAPAR": 1.52,
+      "VP": 0.16,
+      "HDP": 9.86,
+      "CHP": 10.46,
+      "SAADET": 1.78,
+      "IYIP": 7.74,
+      "INDEPENDENT": 6.078
+    }
   },
   {
-    "cityCode": "24",
-    "cityName": "ERZİNCAN",
-    "registeredVoterCount": 162532,
-    "voterCount": 146355,
-    "validVoterCount": 144035,
+    "id": "24",
+    "name": "ERZİNCAN",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 63013,
-          "MHP": 26786,
-          "HUDAPAR": 138,
-          "VP": 148,
-          "HDP": 7615,
-          "CHP": 36902,
-          "SAADET": 1589,
-          "IYI": 5983,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1654,
-          "MILLET": 207
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 43.74,
-          "MHP": 18.59,
-          "HUDAPAR": 0.09,
-          "VP": 0.1,
-          "HDP": 5.28,
-          "CHP": 25.62,
-          "SAADET": 1.1,
-          "IYI": 4.15,
-          "INDEPENDENT": 1.589
-        },
-        "alliance": {
-          "CUMHUR": 1.14,
-          "MILLET": 0.14
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 43.74,
+      "MHP": 18.59,
+      "HUDAPAR": 0.09,
+      "VP": 0.1,
+      "HDP": 5.28,
+      "CHP": 25.62,
+      "SAADET": 1.1,
+      "IYIP": 4.15,
+      "INDEPENDENT": 1.589
+    }
   },
   {
-    "cityCode": "25",
-    "cityName": "ERZURUM",
-    "registeredVoterCount": 494291,
-    "voterCount": 431114,
-    "validVoterCount": 422817,
+    "id": "25",
+    "name": "ERZURUM",
+    "deputyCount": 6,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 227575,
-          "MHP": 78125,
-          "HUDAPAR": 833,
-          "VP": 680,
-          "HDP": 49885,
-          "CHP": 16790,
-          "SAADET": 7515,
-          "IYI": 34644,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 6199,
-          "MILLET": 571
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 53.82,
-          "MHP": 18.47,
-          "HUDAPAR": 0.19,
-          "VP": 0.16,
-          "HDP": 11.79,
-          "CHP": 3.97,
-          "SAADET": 1.77,
-          "IYI": 8.19,
-          "INDEPENDENT": 7.515
-        },
-        "alliance": {
-          "CUMHUR": 1.46,
-          "MILLET": 0.13
-        }
-      }
-    },
-    "deputyCount": 6
+      "AKP": 53.82,
+      "MHP": 18.47,
+      "HUDAPAR": 0.19,
+      "VP": 0.16,
+      "HDP": 11.79,
+      "CHP": 3.97,
+      "SAADET": 1.77,
+      "IYIP": 8.19,
+      "INDEPENDENT": 7.515
+    }
   },
   {
-    "cityCode": "26",
-    "cityName": "ESKİŞEHİR",
-    "registeredVoterCount": 646221,
-    "voterCount": 575177,
-    "validVoterCount": 564067,
+    "id": "26",
+    "name": "ESKİŞEHİR",
+    "deputyCount": 6,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 212446,
-          "MHP": 55273,
-          "HUDAPAR": 758,
-          "VP": 1398,
-          "HDP": 21797,
-          "CHP": 183089,
-          "SAADET": 6270,
-          "IYI": 75465,
-          "INDEPENDENT": 277
-        },
-        "alliance": {
-          "CUMHUR": 5145,
-          "MILLET": 2149
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 37.66,
-          "MHP": 9.79,
-          "HUDAPAR": 0.13,
-          "VP": 0.24,
-          "HDP": 3.86,
-          "CHP": 32.45,
-          "SAADET": 1.11,
-          "IYI": 13.37,
-          "INDEPENDENT": 6.27
-        },
-        "alliance": {
-          "CUMHUR": 0.91,
-          "MILLET": 0.38
-        }
-      }
-    },
-    "deputyCount": 6
+      "AKP": 37.66,
+      "MHP": 9.79,
+      "HUDAPAR": 0.13,
+      "VP": 0.24,
+      "HDP": 3.86,
+      "CHP": 32.45,
+      "SAADET": 1.11,
+      "IYIP": 13.37,
+      "INDEPENDENT": 6.27
+    }
   },
   {
-    "cityCode": "27",
-    "cityName": "GAZİANTEP",
-    "registeredVoterCount": 1216402,
-    "voterCount": 1039392,
-    "validVoterCount": 1019525,
+    "id": "27",
+    "name": "GAZİANTEP",
+    "deputyCount": 14,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 515715,
-          "MHP": 128473,
-          "HUDAPAR": 8703,
-          "VP": 1947,
-          "HDP": 119393,
-          "CHP": 152162,
-          "SAADET": 12257,
-          "IYI": 68450,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 10891,
-          "MILLET": 1534
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 50.58,
-          "MHP": 12.6,
-          "HUDAPAR": 0.85,
-          "VP": 0.19,
-          "HDP": 11.71,
-          "CHP": 14.92,
-          "SAADET": 1.2,
-          "IYI": 6.71,
-          "INDEPENDENT": 12.257
-        },
-        "alliance": {
-          "CUMHUR": 1.06,
-          "MILLET": 0.15
-        }
-      }
-    },
-    "deputyCount": 14
+      "AKP": 50.58,
+      "MHP": 12.6,
+      "HUDAPAR": 0.85,
+      "VP": 0.19,
+      "HDP": 11.71,
+      "CHP": 14.92,
+      "SAADET": 1.2,
+      "IYIP": 6.71,
+      "INDEPENDENT": 12.257
+    }
   },
   {
-    "cityCode": "28",
-    "cityName": "GİRESUN",
-    "registeredVoterCount": 334730,
-    "voterCount": 290219,
-    "validVoterCount": 282863,
+    "id": "28",
+    "name": "GİRESUN",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 149135,
-          "MHP": 30280,
-          "HUDAPAR": 802,
-          "VP": 812,
-          "HDP": 2983,
-          "CHP": 49930,
-          "SAADET": 3542,
-          "IYI": 41343,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 3356,
-          "MILLET": 680
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 52.72,
-          "MHP": 10.7,
-          "HUDAPAR": 0.28,
-          "VP": 0.28,
-          "HDP": 1.05,
-          "CHP": 17.65,
-          "SAADET": 1.25,
-          "IYI": 14.61,
-          "INDEPENDENT": 3.542
-        },
-        "alliance": {
-          "CUMHUR": 1.18,
-          "MILLET": 0.24
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 52.72,
+      "MHP": 10.7,
+      "HUDAPAR": 0.28,
+      "VP": 0.28,
+      "HDP": 1.05,
+      "CHP": 17.65,
+      "SAADET": 1.25,
+      "IYIP": 14.61,
+      "INDEPENDENT": 3.542
+    }
   },
   {
-    "cityCode": "29",
-    "cityName": "GÜMÜŞHANE",
-    "registeredVoterCount": 100853,
-    "voterCount": 80733,
-    "validVoterCount": 78858,
+    "id": "29",
+    "name": "GÜMÜŞHANE",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 44124,
-          "MHP": 16199,
-          "HUDAPAR": 220,
-          "VP": 178,
-          "HDP": 654,
-          "CHP": 5580,
-          "SAADET": 1575,
-          "IYI": 9048,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1154,
-          "MILLET": 126
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 55.95,
-          "MHP": 20.54,
-          "HUDAPAR": 0.27,
-          "VP": 0.22,
-          "HDP": 0.82,
-          "CHP": 7.07,
-          "SAADET": 1.99,
-          "IYI": 11.47,
-          "INDEPENDENT": 1.575
-        },
-        "alliance": {
-          "CUMHUR": 1.46,
-          "MILLET": 0.15
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 55.95,
+      "MHP": 20.54,
+      "HUDAPAR": 0.27,
+      "VP": 0.22,
+      "HDP": 0.82,
+      "CHP": 7.07,
+      "SAADET": 1.99,
+      "IYIP": 11.47,
+      "INDEPENDENT": 1.575
+    }
   },
   {
-    "cityCode": "30",
-    "cityName": "HAKKARİ",
-    "registeredVoterCount": 168438,
-    "voterCount": 140276,
-    "validVoterCount": 135566,
+    "id": "30",
+    "name": "HAKKARİ",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 25544,
-          "MHP": 4762,
-          "HUDAPAR": 792,
-          "VP": 271,
-          "HDP": 97337,
-          "CHP": 4033,
-          "SAADET": 705,
-          "IYI": 1633,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 402,
-          "MILLET": 87
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 18.84,
-          "MHP": 3.51,
-          "HUDAPAR": 0.58,
-          "VP": 0.19,
-          "HDP": 71.8,
-          "CHP": 2.97,
-          "SAADET": 0.52,
-          "IYI": 1.2,
-          "INDEPENDENT": 705
-        },
-        "alliance": {
-          "CUMHUR": 0.29,
-          "MILLET": 0.06
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 18.84,
+      "MHP": 3.51,
+      "HUDAPAR": 0.58,
+      "VP": 0.19,
+      "HDP": 71.8,
+      "CHP": 2.97,
+      "SAADET": 0.52,
+      "IYIP": 1.2,
+      "INDEPENDENT": 705
+    }
   },
   {
-    "cityCode": "31",
-    "cityName": "HATAY",
-    "registeredVoterCount": 1042335,
-    "voterCount": 925282,
-    "validVoterCount": 911280,
+    "id": "31",
+    "name": "HATAY",
+    "deputyCount": 11,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 320185,
-          "MHP": 131179,
-          "HUDAPAR": 1511,
-          "VP": 1290,
-          "HDP": 98645,
-          "CHP": 281145,
-          "SAADET": 8189,
-          "IYI": 59911,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 7568,
-          "MILLET": 1657
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 35.13,
-          "MHP": 14.39,
-          "HUDAPAR": 0.16,
-          "VP": 0.14,
-          "HDP": 10.82,
-          "CHP": 30.85,
-          "SAADET": 0.89,
-          "IYI": 6.57,
-          "INDEPENDENT": 8.189
-        },
-        "alliance": {
-          "CUMHUR": 0.83,
-          "MILLET": 0.18
-        }
-      }
-    },
-    "deputyCount": 11
+      "AKP": 35.13,
+      "MHP": 14.39,
+      "HUDAPAR": 0.16,
+      "VP": 0.14,
+      "HDP": 10.82,
+      "CHP": 30.85,
+      "SAADET": 0.89,
+      "IYIP": 6.57,
+      "INDEPENDENT": 8.189
+    }
   },
   {
-    "cityCode": "76",
-    "cityName": "IĞDIR",
-    "registeredVoterCount": 119735,
-    "voterCount": 93297,
-    "validVoterCount": 91115,
+    "id": "76",
+    "name": "IĞDIR",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 17737,
-          "MHP": 21885,
-          "HUDAPAR": 198,
-          "VP": 203,
-          "HDP": 41057,
-          "CHP": 2141,
-          "SAADET": 1836,
-          "IYI": 5336,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 607,
-          "MILLET": 115
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 19.46,
-          "MHP": 24.01,
-          "HUDAPAR": 0.21,
-          "VP": 0.22,
-          "HDP": 45.06,
-          "CHP": 2.34,
-          "SAADET": 2.01,
-          "IYI": 5.85,
-          "INDEPENDENT": 1.836
-        },
-        "alliance": {
-          "CUMHUR": 0.66,
-          "MILLET": 0.12
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 19.46,
+      "MHP": 24.01,
+      "HUDAPAR": 0.21,
+      "VP": 0.22,
+      "HDP": 45.06,
+      "CHP": 2.34,
+      "SAADET": 2.01,
+      "IYIP": 5.85,
+      "INDEPENDENT": 1.836
+    }
   },
   {
-    "cityCode": "32",
-    "cityName": "ISPARTA",
-    "registeredVoterCount": 312990,
-    "voterCount": 278869,
-    "validVoterCount": 271606,
+    "id": "32",
+    "name": "ISPARTA",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 127095,
-          "MHP": 35449,
-          "HUDAPAR": 710,
-          "VP": 897,
-          "HDP": 4503,
-          "CHP": 44404,
-          "SAADET": 4118,
-          "IYI": 50786,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2906,
-          "MILLET": 738
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 46.79,
-          "MHP": 13.05,
-          "HUDAPAR": 0.26,
-          "VP": 0.33,
-          "HDP": 1.65,
-          "CHP": 16.34,
-          "SAADET": 1.51,
-          "IYI": 18.69,
-          "INDEPENDENT": 4.118
-        },
-        "alliance": {
-          "CUMHUR": 1.06,
-          "MILLET": 0.27
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 46.79,
+      "MHP": 13.05,
+      "HUDAPAR": 0.26,
+      "VP": 0.33,
+      "HDP": 1.65,
+      "CHP": 16.34,
+      "SAADET": 1.51,
+      "IYIP": 18.69,
+      "INDEPENDENT": 4.118
+    }
   },
   {
-    "cityCode": "34",
-    "cityName": "İSTANBUL-1",
-    "registeredVoterCount": 3822256,
-    "voterCount": 3403734,
-    "validVoterCount": 3350363,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 1356935,
-          "MHP": 270335,
-          "HUDAPAR": 4766,
-          "VP": 7322,
-          "HDP": 372793,
-          "CHP": 972092,
-          "SAADET": 52353,
-          "IYI": 275679,
-          "INDEPENDENT": 1903
-        },
-        "alliance": {
-          "CUMHUR": 26274,
-          "MILLET": 9911
-        }
-      },
-      "percentage": {
-        "parties": {
+    "id": "34",
+    "name": "İSTANBUL",
+    "distincts": [
+      {
+        "name": "1. Bölge",
+        "deputyCount": 35,
+        "results": {
           "AKP": 40.5,
           "MHP": 8.06,
           "HUDAPAR": 0.14,
@@ -1880,43 +693,15 @@
           "HDP": 11.12,
           "CHP": 29.01,
           "SAADET": 1.56,
-          "IYI": 8.22,
+          "IYIP": 8.22,
           "INDEPENDENT": 52.353
-        },
-        "alliance": {
-          "CUMHUR": 0.78,
-          "MILLET": 0.29
-        }
-      }
-    },
-    "deputyCount": 35
-  },
-  {
-    "cityCode": "34",
-    "cityName": "İSTANBUL-2",
-    "registeredVoterCount": 3044957,
-    "voterCount": 2657989,
-    "validVoterCount": 2614767,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 1158833,
-          "MHP": 208937,
-          "HUDAPAR": 5320,
-          "VP": 5026,
-          "HDP": 317391,
-          "CHP": 648737,
-          "SAADET": 40999,
-          "IYI": 199693,
-          "INDEPENDENT": 1170
-        },
-        "alliance": {
-          "CUMHUR": 21480,
-          "MILLET": 7181
         }
       },
-      "percentage": {
-        "parties": {
+      {
+        "name": "2. Bölge",
+
+        "deputyCount": 27,
+        "results": {
           "AKP": 44.31,
           "MHP": 7.99,
           "HUDAPAR": 0.2,
@@ -1924,43 +709,14 @@
           "HDP": 12.13,
           "CHP": 24.81,
           "SAADET": 1.56,
-          "IYI": 7.63,
+          "IYIP": 7.63,
           "INDEPENDENT": 40.999
-        },
-        "alliance": {
-          "CUMHUR": 0.82,
-          "MILLET": 0.27
-        }
-      }
-    },
-    "deputyCount": 27
-  },
-  {
-    "cityCode": "34",
-    "cityName": "İSTANBUL-3",
-    "registeredVoterCount": 3706330,
-    "voterCount": 3242484,
-    "validVoterCount": 3189988,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 1306005,
-          "MHP": 265996,
-          "HUDAPAR": 6514,
-          "VP": 5738,
-          "HDP": 456265,
-          "CHP": 808690,
-          "SAADET": 43300,
-          "IYI": 262799,
-          "INDEPENDENT": 1007
-        },
-        "alliance": {
-          "CUMHUR": 25218,
-          "MILLET": 8456
         }
       },
-      "percentage": {
-        "parties": {
+      {
+        "name": "3. Bölge",
+        "deputyCount": 36,
+        "results": {
           "AKP": 40.94,
           "MHP": 8.33,
           "HUDAPAR": 0.2,
@@ -1968,43 +724,20 @@
           "HDP": 14.3,
           "CHP": 25.35,
           "SAADET": 1.35,
-          "IYI": 8.23,
+          "IYIP": 8.23,
           "INDEPENDENT": 43.3
-        },
-        "alliance": {
-          "CUMHUR": 0.79,
-          "MILLET": 0.26
         }
       }
-    },
-    "deputyCount": 36
+    ]
   },
   {
-    "cityCode": "35",
-    "cityName": "İZMİR-1",
-    "registeredVoterCount": 1579092,
-    "voterCount": 1397565,
-    "validVoterCount": 1373392,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 377584,
-          "MHP": 78038,
-          "HUDAPAR": 2276,
-          "VP": 4223,
-          "HDP": 169996,
-          "CHP": 569968,
-          "SAADET": 10758,
-          "IYI": 145611,
-          "INDEPENDENT": 959
-        },
-        "alliance": {
-          "CUMHUR": 9097,
-          "MILLET": 4882
-        }
-      },
-      "percentage": {
-        "parties": {
+    "id": "35",
+    "name": "İZMİR",
+    "distincts": [
+      {
+        "name": "1. Bölge",
+        "deputyCount": 14,
+        "results": {
           "AKP": 27.49,
           "MHP": 5.68,
           "HUDAPAR": 0.16,
@@ -2012,43 +745,14 @@
           "HDP": 12.37,
           "CHP": 41.5,
           "SAADET": 0.78,
-          "IYI": 10.6,
+          "IYIP": 10.6,
           "INDEPENDENT": 10.758
-        },
-        "alliance": {
-          "CUMHUR": 0.66,
-          "MILLET": 0.35
-        }
-      }
-    },
-    "deputyCount": 14
-  },
-  {
-    "cityCode": "35",
-    "cityName": "İZMİR-2",
-    "registeredVoterCount": 1653277,
-    "voterCount": 1483365,
-    "validVoterCount": 1454605,
-    "results": {
-      "count": {
-        "parties": {
-          "AKP": 398659,
-          "MHP": 94889,
-          "HUDAPAR": 2449,
-          "VP": 4725,
-          "HDP": 149819,
-          "CHP": 610799,
-          "SAADET": 11689,
-          "IYI": 165801,
-          "INDEPENDENT": 993
-        },
-        "alliance": {
-          "CUMHUR": 9315,
-          "MILLET": 5467
         }
       },
-      "percentage": {
-        "parties": {
+      {
+        "name": "2. Bölge",
+        "deputyCount": 14,
+        "results": {
           "AKP": 27.4,
           "MHP": 6.52,
           "HUDAPAR": 0.16,
@@ -2056,1775 +760,650 @@
           "HDP": 10.29,
           "CHP": 41.99,
           "SAADET": 0.8,
-          "IYI": 11.39,
+          "IYIP": 11.39,
           "INDEPENDENT": 11.689
-        },
-        "alliance": {
-          "CUMHUR": 0.64,
-          "MILLET": 0.37
         }
       }
-    },
-    "deputyCount": 14
+    ]
   },
   {
-    "cityCode": "46",
-    "cityName": "KAHRAMANMARAŞ",
-    "registeredVoterCount": 739457,
-    "voterCount": 661140,
-    "validVoterCount": 648790,
+    "id": "46",
+    "name": "KAHRAMANMARAŞ",
+    "deputyCount": 8,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 375008,
-          "MHP": 105917,
-          "HUDAPAR": 1531,
-          "VP": 1323,
-          "HDP": 22252,
-          "CHP": 61433,
-          "SAADET": 9848,
-          "IYI": 63283,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 7388,
-          "MILLET": 807
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 57.8,
-          "MHP": 16.32,
-          "HUDAPAR": 0.23,
-          "VP": 0.2,
-          "HDP": 3.42,
-          "CHP": 9.46,
-          "SAADET": 1.51,
-          "IYI": 9.75,
-          "INDEPENDENT": 9.848
-        },
-        "alliance": {
-          "CUMHUR": 1.13,
-          "MILLET": 0.12
-        }
-      }
-    },
-    "deputyCount": 8
+      "AKP": 57.8,
+      "MHP": 16.32,
+      "HUDAPAR": 0.23,
+      "VP": 0.2,
+      "HDP": 3.42,
+      "CHP": 9.46,
+      "SAADET": 1.51,
+      "IYIP": 9.75,
+      "INDEPENDENT": 9.848
+    }
   },
   {
-    "cityCode": "78",
-    "cityName": "KARABÜK",
-    "registeredVoterCount": 176018,
-    "voterCount": 154405,
-    "validVoterCount": 150057,
+    "id": "78",
+    "name": "KARABÜK",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 79446,
-          "MHP": 20274,
-          "HUDAPAR": 323,
-          "VP": 552,
-          "HDP": 1486,
-          "CHP": 24744,
-          "SAADET": 2605,
-          "IYI": 18490,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1763,
-          "MILLET": 374
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 52.94,
-          "MHP": 13.51,
-          "HUDAPAR": 0.21,
-          "VP": 0.36,
-          "HDP": 0.99,
-          "CHP": 16.48,
-          "SAADET": 1.73,
-          "IYI": 12.32,
-          "INDEPENDENT": 2.605
-        },
-        "alliance": {
-          "CUMHUR": 1.17,
-          "MILLET": 0.24
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 52.94,
+      "MHP": 13.51,
+      "HUDAPAR": 0.21,
+      "VP": 0.36,
+      "HDP": 0.99,
+      "CHP": 16.48,
+      "SAADET": 1.73,
+      "IYIP": 12.32,
+      "INDEPENDENT": 2.605
+    }
   },
   {
-    "cityCode": "70",
-    "cityName": "KARAMAN",
-    "registeredVoterCount": 173867,
-    "voterCount": 156830,
-    "validVoterCount": 152972,
+    "id": "70",
+    "name": "KARAMAN",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 80498,
-          "MHP": 22826,
-          "HUDAPAR": 356,
-          "VP": 521,
-          "HDP": 1671,
-          "CHP": 24608,
-          "SAADET": 2431,
-          "IYI": 17884,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1877,
-          "MILLET": 300
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 52.62,
-          "MHP": 14.92,
-          "HUDAPAR": 0.23,
-          "VP": 0.34,
-          "HDP": 1.09,
-          "CHP": 16.08,
-          "SAADET": 1.58,
-          "IYI": 11.69,
-          "INDEPENDENT": 2.431
-        },
-        "alliance": {
-          "CUMHUR": 1.22,
-          "MILLET": 0.19
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 52.62,
+      "MHP": 14.92,
+      "HUDAPAR": 0.23,
+      "VP": 0.34,
+      "HDP": 1.09,
+      "CHP": 16.08,
+      "SAADET": 1.58,
+      "IYIP": 11.69,
+      "INDEPENDENT": 2.431
+    }
   },
   {
-    "cityCode": "36",
-    "cityName": "KARS",
-    "registeredVoterCount": 182194,
-    "voterCount": 147467,
-    "validVoterCount": 143051,
+    "id": "36",
+    "name": "KARS",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 52791,
-          "MHP": 10145,
-          "HUDAPAR": 424,
-          "VP": 414,
-          "HDP": 46285,
-          "CHP": 20207,
-          "SAADET": 973,
-          "IYI": 10597,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 993,
-          "MILLET": 222
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 36.9,
-          "MHP": 7.09,
-          "HUDAPAR": 0.29,
-          "VP": 0.28,
-          "HDP": 32.35,
-          "CHP": 14.12,
-          "SAADET": 0.68,
-          "IYI": 7.4,
-          "INDEPENDENT": 973
-        },
-        "alliance": {
-          "CUMHUR": 0.69,
-          "MILLET": 0.15
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 36.9,
+      "MHP": 7.09,
+      "HUDAPAR": 0.29,
+      "VP": 0.28,
+      "HDP": 32.35,
+      "CHP": 14.12,
+      "SAADET": 0.68,
+      "IYIP": 7.4,
+      "INDEPENDENT": 973
+    }
   },
   {
-    "cityCode": "37",
-    "cityName": "KASTAMONU",
-    "registeredVoterCount": 285917,
-    "voterCount": 249191,
-    "validVoterCount": 241904,
+    "id": "37",
+    "name": "KASTAMONU",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 123900,
-          "MHP": 48471,
-          "HUDAPAR": 727,
-          "VP": 1075,
-          "HDP": 1524,
-          "CHP": 37150,
-          "SAADET": 2281,
-          "IYI": 22754,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 3496,
-          "MILLET": 526
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 51.21,
-          "MHP": 20.03,
-          "HUDAPAR": 0.3,
-          "VP": 0.44,
-          "HDP": 0.63,
-          "CHP": 15.35,
-          "SAADET": 0.94,
-          "IYI": 9.4,
-          "INDEPENDENT": 2.281
-        },
-        "alliance": {
-          "CUMHUR": 1.44,
-          "MILLET": 0.21
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 51.21,
+      "MHP": 20.03,
+      "HUDAPAR": 0.3,
+      "VP": 0.44,
+      "HDP": 0.63,
+      "CHP": 15.35,
+      "SAADET": 0.94,
+      "IYIP": 9.4,
+      "INDEPENDENT": 2.281
+    }
   },
   {
-    "cityCode": "38",
-    "cityName": "KAYSERİ",
-    "registeredVoterCount": 954408,
-    "voterCount": 864726,
-    "validVoterCount": 848702,
+    "id": "38",
+    "name": "KAYSERİ",
+    "deputyCount": 10,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 420880,
-          "MHP": 182076,
-          "HUDAPAR": 1479,
-          "VP": 1274,
-          "HDP": 16193,
-          "CHP": 102885,
-          "SAADET": 14733,
-          "IYI": 94607,
-          "INDEPENDENT": 795
-        },
-        "alliance": {
-          "CUMHUR": 12296,
-          "MILLET": 1484
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 49.59,
-          "MHP": 21.45,
-          "HUDAPAR": 0.17,
-          "VP": 0.15,
-          "HDP": 1.9,
-          "CHP": 12.12,
-          "SAADET": 1.73,
-          "IYI": 11.14,
-          "INDEPENDENT": 14.733
-        },
-        "alliance": {
-          "CUMHUR": 1.44,
-          "MILLET": 0.17
-        }
-      }
-    },
-    "deputyCount": 10
+      "AKP": 49.59,
+      "MHP": 21.45,
+      "HUDAPAR": 0.17,
+      "VP": 0.15,
+      "HDP": 1.9,
+      "CHP": 12.12,
+      "SAADET": 1.73,
+      "IYIP": 11.14,
+      "INDEPENDENT": 14.733
+    }
   },
   {
-    "cityCode": "71",
-    "cityName": "KIRIKKALE",
-    "registeredVoterCount": 199395,
-    "voterCount": 173824,
-    "validVoterCount": 170629,
+    "id": "71",
+    "name": "KIRIKKALE",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 72611,
-          "MHP": 41333,
-          "HUDAPAR": 292,
-          "VP": 300,
-          "HDP": 1881,
-          "CHP": 25752,
-          "SAADET": 2062,
-          "IYI": 23624,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2378,
-          "MILLET": 396
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 42.55,
-          "MHP": 24.22,
-          "HUDAPAR": 0.17,
-          "VP": 0.17,
-          "HDP": 1.1,
-          "CHP": 15.09,
-          "SAADET": 1.2,
-          "IYI": 13.84,
-          "INDEPENDENT": 2.062
-        },
-        "alliance": {
-          "CUMHUR": 1.39,
-          "MILLET": 0.23
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 42.55,
+      "MHP": 24.22,
+      "HUDAPAR": 0.17,
+      "VP": 0.17,
+      "HDP": 1.1,
+      "CHP": 15.09,
+      "SAADET": 1.2,
+      "IYIP": 13.84,
+      "INDEPENDENT": 2.062
+    }
   },
   {
-    "cityCode": "39",
-    "cityName": "KIRKLARELİ",
-    "registeredVoterCount": 273082,
-    "voterCount": 246416,
-    "validVoterCount": 241347,
+    "id": "39",
+    "name": "KIRKLARELİ",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 62148,
-          "MHP": 11367,
-          "HUDAPAR": 358,
-          "VP": 675,
-          "HDP": 7123,
-          "CHP": 116179,
-          "SAADET": 1434,
-          "IYI": 40069,
-          "INDEPENDENT": 61
-        },
-        "alliance": {
-          "CUMHUR": 1030,
-          "MILLET": 903
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 25.75,
-          "MHP": 4.7,
-          "HUDAPAR": 0.14,
-          "VP": 0.27,
-          "HDP": 2.95,
-          "CHP": 48.13,
-          "SAADET": 0.59,
-          "IYI": 16.6,
-          "INDEPENDENT": 1.434
-        },
-        "alliance": {
-          "CUMHUR": 0.42,
-          "MILLET": 0.37
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 25.75,
+      "MHP": 4.7,
+      "HUDAPAR": 0.14,
+      "VP": 0.27,
+      "HDP": 2.95,
+      "CHP": 48.13,
+      "SAADET": 0.59,
+      "IYIP": 16.6,
+      "INDEPENDENT": 1.434
+    }
   },
   {
-    "cityCode": "40",
-    "cityName": "KIRŞEHİR",
-    "registeredVoterCount": 166167,
-    "voterCount": 143297,
-    "validVoterCount": 139891,
+    "id": "40",
+    "name": "KIRŞEHİR",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 56059,
-          "MHP": 23573,
-          "HUDAPAR": 254,
-          "VP": 283,
-          "HDP": 6029,
-          "CHP": 35870,
-          "SAADET": 1396,
-          "IYI": 14338,
-          "INDEPENDENT": 101
-        },
-        "alliance": {
-          "CUMHUR": 1669,
-          "MILLET": 319
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 40.07,
-          "MHP": 16.85,
-          "HUDAPAR": 0.18,
-          "VP": 0.2,
-          "HDP": 4.3,
-          "CHP": 25.64,
-          "SAADET": 0.99,
-          "IYI": 10.24,
-          "INDEPENDENT": 1.396
-        },
-        "alliance": {
-          "CUMHUR": 1.19,
-          "MILLET": 0.22
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 40.07,
+      "MHP": 16.85,
+      "HUDAPAR": 0.18,
+      "VP": 0.2,
+      "HDP": 4.3,
+      "CHP": 25.64,
+      "SAADET": 0.99,
+      "IYIP": 10.24,
+      "INDEPENDENT": 1.396
+    }
   },
   {
-    "cityCode": "79",
-    "cityName": "KİLİS",
-    "registeredVoterCount": 86080,
-    "voterCount": 75129,
-    "validVoterCount": 73424,
+    "id": "79",
+    "name": "KİLİS",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 36706,
-          "MHP": 14977,
-          "HUDAPAR": 177,
-          "VP": 125,
-          "HDP": 1347,
-          "CHP": 10575,
-          "SAADET": 996,
-          "IYI": 7546,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 845,
-          "MILLET": 130
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 49.99,
-          "MHP": 20.39,
-          "HUDAPAR": 0.24,
-          "VP": 0.17,
-          "HDP": 1.83,
-          "CHP": 14.4,
-          "SAADET": 1.35,
-          "IYI": 10.27,
-          "INDEPENDENT": 996
-        },
-        "alliance": {
-          "CUMHUR": 1.15,
-          "MILLET": 0.17
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 49.99,
+      "MHP": 20.39,
+      "HUDAPAR": 0.24,
+      "VP": 0.17,
+      "HDP": 1.83,
+      "CHP": 14.4,
+      "SAADET": 1.35,
+      "IYIP": 10.27,
+      "INDEPENDENT": 996
+    }
   },
   {
-    "cityCode": "41",
-    "cityName": "KOCAELİ",
-    "registeredVoterCount": 1336401,
-    "voterCount": 1198849,
-    "validVoterCount": 1175662,
+    "id": "41",
+    "name": "KOCAELİ",
+    "deputyCount": 14,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 556671,
-          "MHP": 132452,
-          "HUDAPAR": 1843,
-          "VP": 2014,
-          "HDP": 82860,
-          "CHP": 235465,
-          "SAADET": 25950,
-          "IYI": 122645,
-          "INDEPENDENT": 500
-        },
-        "alliance": {
-          "CUMHUR": 12151,
-          "MILLET": 3111
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 47.34,
-          "MHP": 11.26,
-          "HUDAPAR": 0.15,
-          "VP": 0.17,
-          "HDP": 7.04,
-          "CHP": 20.02,
-          "SAADET": 2.2,
-          "IYI": 10.43,
-          "INDEPENDENT": 25.95
-        },
-        "alliance": {
-          "CUMHUR": 1.03,
-          "MILLET": 0.26
-        }
-      }
-    },
-    "deputyCount": 14
+      "AKP": 47.34,
+      "MHP": 11.26,
+      "HUDAPAR": 0.15,
+      "VP": 0.17,
+      "HDP": 7.04,
+      "CHP": 20.02,
+      "SAADET": 2.2,
+      "IYIP": 10.43,
+      "INDEPENDENT": 25.95
+    }
   },
   {
-    "cityCode": "42",
-    "cityName": "KONYA",
-    "registeredVoterCount": 1505540,
-    "voterCount": 1341859,
-    "validVoterCount": 1312952,
+    "id": "42",
+    "name": "KONYA",
+    "deputyCount": 15,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 771547,
-          "MHP": 203301,
-          "HUDAPAR": 2787,
-          "VP": 1996,
-          "HDP": 43228,
-          "CHP": 122916,
-          "SAADET": 31092,
-          "IYI": 118899,
-          "INDEPENDENT": 596
-        },
-        "alliance": {
-          "CUMHUR": 14734,
-          "MILLET": 1856
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 58.76,
-          "MHP": 15.48,
-          "HUDAPAR": 0.21,
-          "VP": 0.15,
-          "HDP": 3.29,
-          "CHP": 9.36,
-          "SAADET": 2.36,
-          "IYI": 9.05,
-          "INDEPENDENT": 31.092
-        },
-        "alliance": {
-          "CUMHUR": 1.12,
-          "MILLET": 0.14
-        }
-      }
-    },
-    "deputyCount": 15
+      "AKP": 58.76,
+      "MHP": 15.48,
+      "HUDAPAR": 0.21,
+      "VP": 0.15,
+      "HDP": 3.29,
+      "CHP": 9.36,
+      "SAADET": 2.36,
+      "IYIP": 9.05,
+      "INDEPENDENT": 31.092
+    }
   },
   {
-    "cityCode": "43",
-    "cityName": "KÜTAHYA",
-    "registeredVoterCount": 422653,
-    "voterCount": 386024,
-    "validVoterCount": 377486,
+    "id": "43",
+    "name": "KÜTAHYA",
+    "deputyCount": 5,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 203939,
-          "MHP": 69737,
-          "HUDAPAR": 811,
-          "VP": 900,
-          "HDP": 2678,
-          "CHP": 46808,
-          "SAADET": 6841,
-          "IYI": 40501,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 4542,
-          "MILLET": 729
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 54.02,
-          "MHP": 18.47,
-          "HUDAPAR": 0.21,
-          "VP": 0.23,
-          "HDP": 0.7,
-          "CHP": 12.39,
-          "SAADET": 1.81,
-          "IYI": 10.72,
-          "INDEPENDENT": 6.841
-        },
-        "alliance": {
-          "CUMHUR": 1.2,
-          "MILLET": 0.19
-        }
-      }
-    },
-    "deputyCount": 5
+      "AKP": 54.02,
+      "MHP": 18.47,
+      "HUDAPAR": 0.21,
+      "VP": 0.23,
+      "HDP": 0.7,
+      "CHP": 12.39,
+      "SAADET": 1.81,
+      "IYIP": 10.72,
+      "INDEPENDENT": 6.841
+    }
   },
   {
-    "cityCode": "44",
-    "cityName": "MALATYA",
-    "registeredVoterCount": 555931,
-    "voterCount": 487151,
-    "validVoterCount": 478686,
+    "id": "44",
+    "name": "MALATYA",
+    "deputyCount": 6,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 254970,
-          "MHP": 77413,
-          "HUDAPAR": 1619,
-          "VP": 655,
-          "HDP": 32081,
-          "CHP": 79605,
-          "SAADET": 7247,
-          "IYI": 20347,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 4184,
-          "MILLET": 565
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 53.26,
-          "MHP": 16.17,
-          "HUDAPAR": 0.33,
-          "VP": 0.13,
-          "HDP": 6.7,
-          "CHP": 16.62,
-          "SAADET": 1.51,
-          "IYI": 4.25,
-          "INDEPENDENT": 7.247
-        },
-        "alliance": {
-          "CUMHUR": 0.87,
-          "MILLET": 0.11
-        }
-      }
-    },
-    "deputyCount": 6
+      "AKP": 53.26,
+      "MHP": 16.17,
+      "HUDAPAR": 0.33,
+      "VP": 0.13,
+      "HDP": 6.7,
+      "CHP": 16.62,
+      "SAADET": 1.51,
+      "IYIP": 4.25,
+      "INDEPENDENT": 7.247
+    }
   },
   {
-    "cityCode": "45",
-    "cityName": "MANİSA",
-    "registeredVoterCount": 1046410,
-    "voterCount": 953742,
-    "validVoterCount": 930198,
+    "id": "45",
+    "name": "MANİSA",
+    "deputyCount": 10,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 363916,
-          "MHP": 105643,
-          "HUDAPAR": 2545,
-          "VP": 2739,
-          "HDP": 62198,
-          "CHP": 245894,
-          "SAADET": 8666,
-          "IYI": 128002,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 8124,
-          "MILLET": 2471
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 39.12,
-          "MHP": 11.35,
-          "HUDAPAR": 0.27,
-          "VP": 0.29,
-          "HDP": 6.68,
-          "CHP": 26.43,
-          "SAADET": 0.93,
-          "IYI": 13.76,
-          "INDEPENDENT": 8.666
-        },
-        "alliance": {
-          "CUMHUR": 0.87,
-          "MILLET": 0.26
-        }
-      }
-    },
-    "deputyCount": 10
+      "AKP": 39.12,
+      "MHP": 11.35,
+      "HUDAPAR": 0.27,
+      "VP": 0.29,
+      "HDP": 6.68,
+      "CHP": 26.43,
+      "SAADET": 0.93,
+      "IYIP": 13.76,
+      "INDEPENDENT": 8.666
+    }
   },
   {
-    "cityCode": "47",
-    "cityName": "MARDİN",
-    "registeredVoterCount": 471225,
-    "voterCount": 395732,
-    "validVoterCount": 385281,
+    "id": "47",
+    "name": "MARDİN",
+    "deputyCount": 6,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 113634,
-          "MHP": 9387,
-          "HUDAPAR": 8253,
-          "VP": 641,
-          "HDP": 233657,
-          "CHP": 10915,
-          "SAADET": 3151,
-          "IYI": 3952,
-          "INDEPENDENT": 350
-        },
-        "alliance": {
-          "CUMHUR": 1136,
-          "MILLET": 205
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 29.49,
-          "MHP": 2.43,
-          "HUDAPAR": 2.14,
-          "VP": 0.16,
-          "HDP": 60.64,
-          "CHP": 2.83,
-          "SAADET": 0.81,
-          "IYI": 1.02,
-          "INDEPENDENT": 3.151
-        },
-        "alliance": {
-          "CUMHUR": 0.29,
-          "MILLET": 0.05
-        }
-      }
-    },
-    "deputyCount": 6
+      "AKP": 29.49,
+      "MHP": 2.43,
+      "HUDAPAR": 2.14,
+      "VP": 0.16,
+      "HDP": 60.64,
+      "CHP": 2.83,
+      "SAADET": 0.81,
+      "IYIP": 1.02,
+      "INDEPENDENT": 3.151
+    }
   },
   {
-    "cityCode": "33",
-    "cityName": "MERSİN",
-    "registeredVoterCount": 1272836,
-    "voterCount": 1123450,
-    "validVoterCount": 1102558,
+    "id": "33",
+    "name": "MERSİN",
+    "deputyCount": 13,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 302200,
-          "MHP": 139581,
-          "HUDAPAR": 4486,
-          "VP": 2391,
-          "HDP": 186663,
-          "CHP": 296514,
-          "SAADET": 7515,
-          "IYI": 151924,
-          "INDEPENDENT": 374
-        },
-        "alliance": {
-          "CUMHUR": 8372,
-          "MILLET": 2538
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 27.4,
-          "MHP": 12.65,
-          "HUDAPAR": 0.4,
-          "VP": 0.21,
-          "HDP": 16.92,
-          "CHP": 26.89,
-          "SAADET": 0.68,
-          "IYI": 13.77,
-          "INDEPENDENT": 7.515
-        },
-        "alliance": {
-          "CUMHUR": 0.75,
-          "MILLET": 0.23
-        }
-      }
-    },
-    "deputyCount": 13
+      "AKP": 27.4,
+      "MHP": 12.65,
+      "HUDAPAR": 0.4,
+      "VP": 0.21,
+      "HDP": 16.92,
+      "CHP": 26.89,
+      "SAADET": 0.68,
+      "IYIP": 13.77,
+      "INDEPENDENT": 7.515
+    }
   },
   {
-    "cityCode": "48",
-    "cityName": "MUĞLA",
-    "registeredVoterCount": 725909,
-    "voterCount": 642952,
-    "validVoterCount": 628627,
+    "id": "48",
+    "name": "MUĞLA",
+    "deputyCount": 7,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 169767,
-          "MHP": 39793,
-          "HUDAPAR": 1378,
-          "VP": 2615,
-          "HDP": 40278,
-          "CHP": 259707,
-          "SAADET": 3785,
-          "IYI": 105395,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 3524,
-          "MILLET": 2385
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 27,
-          "MHP": 6.33,
-          "HUDAPAR": 0.21,
-          "VP": 0.41,
-          "HDP": 6.4,
-          "CHP": 41.31,
-          "SAADET": 0.6,
-          "IYI": 16.76,
-          "INDEPENDENT": 3.785
-        },
-        "alliance": {
-          "CUMHUR": 0.56,
-          "MILLET": 0.37
-        }
-      }
-    },
-    "deputyCount": 7
+      "AKP": 27,
+      "MHP": 6.33,
+      "HUDAPAR": 0.21,
+      "VP": 0.41,
+      "HDP": 6.4,
+      "CHP": 41.31,
+      "SAADET": 0.6,
+      "IYIP": 16.76,
+      "INDEPENDENT": 3.785
+    }
   },
   {
-    "cityCode": "49",
-    "cityName": "MUŞ",
-    "registeredVoterCount": 228826,
-    "voterCount": 189275,
-    "validVoterCount": 183037,
+    "id": "49",
+    "name": "MUŞ",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 57747,
-          "MHP": 6527,
-          "HUDAPAR": 2784,
-          "VP": 391,
-          "HDP": 101744,
-          "CHP": 3633,
-          "SAADET": 1652,
-          "IYI": 7881,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 584,
-          "MILLET": 94
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 31.54,
-          "MHP": 3.56,
-          "HUDAPAR": 1.52,
-          "VP": 0.21,
-          "HDP": 55.58,
-          "CHP": 1.98,
-          "SAADET": 0.9,
-          "IYI": 4.3,
-          "INDEPENDENT": 1.652
-        },
-        "alliance": {
-          "CUMHUR": 0.31,
-          "MILLET": 0.05
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 31.54,
+      "MHP": 3.56,
+      "HUDAPAR": 1.52,
+      "VP": 0.21,
+      "HDP": 55.58,
+      "CHP": 1.98,
+      "SAADET": 0.9,
+      "IYIP": 4.3,
+      "INDEPENDENT": 1.652
+    }
   },
   {
-    "cityCode": "50",
-    "cityName": "NEVŞEHİR",
-    "registeredVoterCount": 210901,
-    "voterCount": 189162,
-    "validVoterCount": 185381,
+    "id": "50",
+    "name": "NEVŞEHİR",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 96984,
-          "MHP": 33106,
-          "HUDAPAR": 551,
-          "VP": 418,
-          "HDP": 2335,
-          "CHP": 30496,
-          "SAADET": 2175,
-          "IYI": 16841,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2151,
-          "MILLET": 324
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 52.31,
-          "MHP": 17.85,
-          "HUDAPAR": 0.29,
-          "VP": 0.22,
-          "HDP": 1.25,
-          "CHP": 16.45,
-          "SAADET": 1.17,
-          "IYI": 9.08,
-          "INDEPENDENT": 2.175
-        },
-        "alliance": {
-          "CUMHUR": 1.16,
-          "MILLET": 0.17
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 52.31,
+      "MHP": 17.85,
+      "HUDAPAR": 0.29,
+      "VP": 0.22,
+      "HDP": 1.25,
+      "CHP": 16.45,
+      "SAADET": 1.17,
+      "IYIP": 9.08,
+      "INDEPENDENT": 2.175
+    }
   },
   {
-    "cityCode": "51",
-    "cityName": "NİĞDE",
-    "registeredVoterCount": 240315,
-    "voterCount": 210930,
-    "validVoterCount": 206290,
+    "id": "51",
+    "name": "NİĞDE",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 88103,
-          "MHP": 42719,
-          "HUDAPAR": 443,
-          "VP": 613,
-          "HDP": 2424,
-          "CHP": 41597,
-          "SAADET": 2487,
-          "IYI": 24788,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2716,
-          "MILLET": 400
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 42.7,
-          "MHP": 20.7,
-          "HUDAPAR": 0.21,
-          "VP": 0.29,
-          "HDP": 1.17,
-          "CHP": 20.16,
-          "SAADET": 1.2,
-          "IYI": 12.01,
-          "INDEPENDENT": 2.487
-        },
-        "alliance": {
-          "CUMHUR": 1.31,
-          "MILLET": 0.19
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 42.7,
+      "MHP": 20.7,
+      "HUDAPAR": 0.21,
+      "VP": 0.29,
+      "HDP": 1.17,
+      "CHP": 20.16,
+      "SAADET": 1.2,
+      "IYIP": 12.01,
+      "INDEPENDENT": 2.487
+    }
   },
   {
-    "cityCode": "52",
-    "cityName": "ORDU",
-    "registeredVoterCount": 558478,
-    "voterCount": 484245,
-    "validVoterCount": 470149,
+    "id": "52",
+    "name": "ORDU",
+    "deputyCount": 6,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 223444,
-          "MHP": 78591,
-          "HUDAPAR": 1244,
-          "VP": 1745,
-          "HDP": 4269,
-          "CHP": 106924,
-          "SAADET": 5382,
-          "IYI": 40161,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 7340,
-          "MILLET": 1049
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 47.52,
-          "MHP": 16.71,
-          "HUDAPAR": 0.26,
-          "VP": 0.37,
-          "HDP": 0.9,
-          "CHP": 22.74,
-          "SAADET": 1.14,
-          "IYI": 8.54,
-          "INDEPENDENT": 5.382
-        },
-        "alliance": {
-          "CUMHUR": 1.56,
-          "MILLET": 0.22
-        }
-      }
-    },
-    "deputyCount": 6
+      "AKP": 47.52,
+      "MHP": 16.71,
+      "HUDAPAR": 0.26,
+      "VP": 0.37,
+      "HDP": 0.9,
+      "CHP": 22.74,
+      "SAADET": 1.14,
+      "IYIP": 8.54,
+      "INDEPENDENT": 5.382
+    }
   },
   {
-    "cityCode": "80",
-    "cityName": "OSMANİYE",
-    "registeredVoterCount": 358510,
-    "voterCount": 308729,
-    "validVoterCount": 303085,
+    "id": "80",
+    "name": "OSMANİYE",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 105800,
-          "MHP": 95799,
-          "HUDAPAR": 1157,
-          "VP": 652,
-          "HDP": 9585,
-          "CHP": 40424,
-          "SAADET": 2987,
-          "IYI": 41087,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 5113,
-          "MILLET": 481
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 34.9,
-          "MHP": 31.6,
-          "HUDAPAR": 0.38,
-          "VP": 0.21,
-          "HDP": 3.16,
-          "CHP": 13.33,
-          "SAADET": 0.98,
-          "IYI": 13.55,
-          "INDEPENDENT": 2.987
-        },
-        "alliance": {
-          "CUMHUR": 1.68,
-          "MILLET": 0.15
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 34.9,
+      "MHP": 31.6,
+      "HUDAPAR": 0.38,
+      "VP": 0.21,
+      "HDP": 3.16,
+      "CHP": 13.33,
+      "SAADET": 0.98,
+      "IYIP": 13.55,
+      "INDEPENDENT": 2.987
+    }
   },
   {
-    "cityCode": "53",
-    "cityName": "RİZE",
-    "registeredVoterCount": 252766,
-    "voterCount": 222114,
-    "validVoterCount": 217507,
+    "id": "53",
+    "name": "RİZE",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 139948,
-          "MHP": 26907,
-          "HUDAPAR": 228,
-          "VP": 354,
-          "HDP": 2048,
-          "CHP": 27800,
-          "SAADET": 4096,
-          "IYI": 13088,
-          "INDEPENDENT": 276
-        },
-        "alliance": {
-          "CUMHUR": 2365,
-          "MILLET": 397
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 64.34,
-          "MHP": 12.37,
-          "HUDAPAR": 0.1,
-          "VP": 0.16,
-          "HDP": 0.94,
-          "CHP": 12.78,
-          "SAADET": 1.88,
-          "IYI": 6.01,
-          "INDEPENDENT": 4.096
-        },
-        "alliance": {
-          "CUMHUR": 1.08,
-          "MILLET": 0.18
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 64.34,
+      "MHP": 12.37,
+      "HUDAPAR": 0.1,
+      "VP": 0.16,
+      "HDP": 0.94,
+      "CHP": 12.78,
+      "SAADET": 1.88,
+      "IYIP": 6.01,
+      "INDEPENDENT": 4.096
+    }
   },
   {
-    "cityCode": "54",
-    "cityName": "SAKARYA",
-    "registeredVoterCount": 705678,
-    "voterCount": 637350,
-    "validVoterCount": 625866,
+    "id": "54",
+    "name": "SAKARYA",
+    "deputyCount": 8,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 358992,
-          "MHP": 84952,
-          "HUDAPAR": 856,
-          "VP": 1180,
-          "HDP": 14048,
-          "CHP": 84316,
-          "SAADET": 12982,
-          "IYI": 59290,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 7898,
-          "MILLET": 1352
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 57.35,
-          "MHP": 13.57,
-          "HUDAPAR": 0.13,
-          "VP": 0.18,
-          "HDP": 2.24,
-          "CHP": 13.47,
-          "SAADET": 2.07,
-          "IYI": 9.47,
-          "INDEPENDENT": 12.982
-        },
-        "alliance": {
-          "CUMHUR": 1.26,
-          "MILLET": 0.21
-        }
-      }
-    },
-    "deputyCount": 8
+      "AKP": 57.35,
+      "MHP": 13.57,
+      "HUDAPAR": 0.13,
+      "VP": 0.18,
+      "HDP": 2.24,
+      "CHP": 13.47,
+      "SAADET": 2.07,
+      "IYIP": 9.47,
+      "INDEPENDENT": 12.982
+    }
   },
   {
-    "cityCode": "55",
-    "cityName": "SAMSUN",
-    "registeredVoterCount": 960245,
-    "voterCount": 848938,
-    "validVoterCount": 827725,
+    "id": "55",
+    "name": "SAMSUN",
+    "deputyCount": 9,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 421974,
-          "MHP": 133763,
-          "HUDAPAR": 1281,
-          "VP": 1748,
-          "HDP": 10645,
-          "CHP": 141808,
-          "SAADET": 11854,
-          "IYI": 91077,
-          "INDEPENDENT": 715
-        },
-        "alliance": {
-          "CUMHUR": 10969,
-          "MILLET": 1891
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 50.97,
-          "MHP": 16.16,
-          "HUDAPAR": 0.15,
-          "VP": 0.21,
-          "HDP": 1.28,
-          "CHP": 17.13,
-          "SAADET": 1.43,
-          "IYI": 11,
-          "INDEPENDENT": 11.854
-        },
-        "alliance": {
-          "CUMHUR": 1.32,
-          "MILLET": 0.22
-        }
-      }
-    },
-    "deputyCount": 9
+      "AKP": 50.97,
+      "MHP": 16.16,
+      "HUDAPAR": 0.15,
+      "VP": 0.21,
+      "HDP": 1.28,
+      "CHP": 17.13,
+      "SAADET": 1.43,
+      "IYIP": 11,
+      "INDEPENDENT": 11.854
+    }
   },
   {
-    "cityCode": "56",
-    "cityName": "SİİRT",
-    "registeredVoterCount": 180215,
-    "voterCount": 151462,
-    "validVoterCount": 146267,
+    "id": "56",
+    "name": "SİİRT",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 55890,
-          "MHP": 4905,
-          "HUDAPAR": 1776,
-          "VP": 269,
-          "HDP": 76225,
-          "CHP": 2990,
-          "SAADET": 1355,
-          "IYI": 2181,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 573,
-          "MILLET": 103
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 38.21,
-          "MHP": 3.35,
-          "HUDAPAR": 1.21,
-          "VP": 0.18,
-          "HDP": 52.11,
-          "CHP": 2.04,
-          "SAADET": 0.92,
-          "IYI": 1.49,
-          "INDEPENDENT": 1.355
-        },
-        "alliance": {
-          "CUMHUR": 0.39,
-          "MILLET": 0.07
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 38.21,
+      "MHP": 3.35,
+      "HUDAPAR": 1.21,
+      "VP": 0.18,
+      "HDP": 52.11,
+      "CHP": 2.04,
+      "SAADET": 0.92,
+      "IYIP": 1.49,
+      "INDEPENDENT": 1.355
+    }
   },
   {
-    "cityCode": "57",
-    "cityName": "SİNOP",
-    "registeredVoterCount": 160081,
-    "voterCount": 140110,
-    "validVoterCount": 135289,
+    "id": "57",
+    "name": "SİNOP",
+    "deputyCount": 2,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 73639,
-          "MHP": 9562,
-          "HUDAPAR": 444,
-          "VP": 778,
-          "HDP": 2065,
-          "CHP": 32784,
-          "SAADET": 1516,
-          "IYI": 12675,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1445,
-          "MILLET": 381
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 54.43,
-          "MHP": 7.06,
-          "HUDAPAR": 0.32,
-          "VP": 0.57,
-          "HDP": 1.52,
-          "CHP": 24.23,
-          "SAADET": 1.12,
-          "IYI": 9.36,
-          "INDEPENDENT": 1.516
-        },
-        "alliance": {
-          "CUMHUR": 1.06,
-          "MILLET": 0.28
-        }
-      }
-    },
-    "deputyCount": 2
+      "AKP": 54.43,
+      "MHP": 7.06,
+      "HUDAPAR": 0.32,
+      "VP": 0.57,
+      "HDP": 1.52,
+      "CHP": 24.23,
+      "SAADET": 1.12,
+      "IYIP": 9.36,
+      "INDEPENDENT": 1.516
+    }
   },
   {
-    "cityCode": "58",
-    "cityName": "SİVAS",
-    "registeredVoterCount": 450597,
-    "voterCount": 404295,
-    "validVoterCount": 397033,
+    "id": "58",
+    "name": "SİVAS",
+    "deputyCount": 5,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 213446,
-          "MHP": 75405,
-          "HUDAPAR": 532,
-          "VP": 615,
-          "HDP": 6863,
-          "CHP": 59813,
-          "SAADET": 7052,
-          "IYI": 27292,
-          "INDEPENDENT": 266
-        },
-        "alliance": {
-          "CUMHUR": 5151,
-          "MILLET": 598
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 53.76,
-          "MHP": 18.99,
-          "HUDAPAR": 0.13,
-          "VP": 0.15,
-          "HDP": 1.72,
-          "CHP": 15.06,
-          "SAADET": 1.77,
-          "IYI": 6.87,
-          "INDEPENDENT": 7.052
-        },
-        "alliance": {
-          "CUMHUR": 1.29,
-          "MILLET": 0.15
-        }
-      }
-    },
-    "deputyCount": 5
+      "AKP": 53.76,
+      "MHP": 18.99,
+      "HUDAPAR": 0.13,
+      "VP": 0.15,
+      "HDP": 1.72,
+      "CHP": 15.06,
+      "SAADET": 1.77,
+      "IYIP": 6.87,
+      "INDEPENDENT": 7.052
+    }
   },
   {
-    "cityCode": "63",
-    "cityName": "ŞANLIURFA",
-    "registeredVoterCount": 1063482,
-    "voterCount": 864333,
-    "validVoterCount": 843861,
+    "id": "63",
+    "name": "ŞANLIURFA",
+    "deputyCount": 14,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 440085,
-          "MHP": 77479,
-          "HUDAPAR": 13495,
-          "VP": 927,
-          "HDP": 247256,
-          "CHP": 28880,
-          "SAADET": 10913,
-          "IYI": 14965,
-          "INDEPENDENT": 3448
-        },
-        "alliance": {
-          "CUMHUR": 5882,
-          "MILLET": 531
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 52.15,
-          "MHP": 9.18,
-          "HUDAPAR": 1.59,
-          "VP": 0.1,
-          "HDP": 29.3,
-          "CHP": 3.42,
-          "SAADET": 1.29,
-          "IYI": 1.77,
-          "INDEPENDENT": 10.913
-        },
-        "alliance": {
-          "CUMHUR": 0.69,
-          "MILLET": 0.06
-        }
-      }
-    },
-    "deputyCount": 14
+      "AKP": 52.15,
+      "MHP": 9.18,
+      "HUDAPAR": 1.59,
+      "VP": 0.1,
+      "HDP": 29.3,
+      "CHP": 3.42,
+      "SAADET": 1.29,
+      "IYIP": 1.77,
+      "INDEPENDENT": 10.913
+    }
   },
   {
-    "cityCode": "73",
-    "cityName": "ŞIRNAK",
-    "registeredVoterCount": 268840,
-    "voterCount": 233565,
-    "validVoterCount": 226738,
+    "id": "73",
+    "name": "ŞIRNAK",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 38523,
-          "MHP": 8721,
-          "HUDAPAR": 4847,
-          "VP": 344,
-          "HDP": 162969,
-          "CHP": 5048,
-          "SAADET": 1001,
-          "IYI": 4284,
-          "INDEPENDENT": 408
-        },
-        "alliance": {
-          "CUMHUR": 448,
-          "MILLET": 145
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 16.99,
-          "MHP": 3.84,
-          "HUDAPAR": 2.13,
-          "VP": 0.15,
-          "HDP": 71.87,
-          "CHP": 2.22,
-          "SAADET": 0.44,
-          "IYI": 1.88,
-          "INDEPENDENT": 1.001
-        },
-        "alliance": {
-          "CUMHUR": 0.19,
-          "MILLET": 0.06
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 16.99,
+      "MHP": 3.84,
+      "HUDAPAR": 2.13,
+      "VP": 0.15,
+      "HDP": 71.87,
+      "CHP": 2.22,
+      "SAADET": 0.44,
+      "IYIP": 1.88,
+      "INDEPENDENT": 1.001
+    }
   },
   {
-    "cityCode": "59",
-    "cityName": "TEKİRDAĞ",
-    "registeredVoterCount": 737697,
-    "voterCount": 657317,
-    "validVoterCount": 644493,
+    "id": "59",
+    "name": "TEKİRDAĞ",
+    "deputyCount": 8,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 216811,
-          "MHP": 47860,
-          "HUDAPAR": 904,
-          "VP": 1589,
-          "HDP": 40274,
-          "CHP": 248539,
-          "SAADET": 5018,
-          "IYI": 76707,
-          "INDEPENDENT": 229
-        },
-        "alliance": {
-          "CUMHUR": 4394,
-          "MILLET": 2168
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 33.64,
-          "MHP": 7.42,
-          "HUDAPAR": 0.14,
-          "VP": 0.24,
-          "HDP": 6.24,
-          "CHP": 38.56,
-          "SAADET": 0.77,
-          "IYI": 11.9,
-          "INDEPENDENT": 5.018
-        },
-        "alliance": {
-          "CUMHUR": 0.68,
-          "MILLET": 0.33
-        }
-      }
-    },
-    "deputyCount": 8
+      "AKP": 33.64,
+      "MHP": 7.42,
+      "HUDAPAR": 0.14,
+      "VP": 0.24,
+      "HDP": 6.24,
+      "CHP": 38.56,
+      "SAADET": 0.77,
+      "IYIP": 11.9,
+      "INDEPENDENT": 5.018
+    }
   },
   {
-    "cityCode": "60",
-    "cityName": "TOKAT",
-    "registeredVoterCount": 424187,
-    "voterCount": 382498,
-    "validVoterCount": 374996,
+    "id": "60",
+    "name": "TOKAT",
+    "deputyCount": 5,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 183402,
-          "MHP": 61264,
-          "HUDAPAR": 615,
-          "VP": 664,
-          "HDP": 5999,
-          "CHP": 77417,
-          "SAADET": 4834,
-          "IYI": 35463,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 4733,
-          "MILLET": 605
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 48.9,
-          "MHP": 16.33,
-          "HUDAPAR": 0.16,
-          "VP": 0.17,
-          "HDP": 1.59,
-          "CHP": 20.64,
-          "SAADET": 1.28,
-          "IYI": 9.45,
-          "INDEPENDENT": 4.834
-        },
-        "alliance": {
-          "CUMHUR": 1.26,
-          "MILLET": 0.16
-        }
-      }
-    },
-    "deputyCount": 5
+      "AKP": 48.9,
+      "MHP": 16.33,
+      "HUDAPAR": 0.16,
+      "VP": 0.17,
+      "HDP": 1.59,
+      "CHP": 20.64,
+      "SAADET": 1.28,
+      "IYIP": 9.45,
+      "INDEPENDENT": 4.834
+    }
   },
   {
-    "cityCode": "61",
-    "cityName": "TRABZON",
-    "registeredVoterCount": 583892,
-    "voterCount": 509406,
-    "validVoterCount": 497820,
+    "id": "61",
+    "name": "TRABZON",
+    "deputyCount": 6,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 274490,
-          "MHP": 66992,
-          "HUDAPAR": 615,
-          "VP": 916,
-          "HDP": 4273,
-          "CHP": 74348,
-          "SAADET": 12495,
-          "IYI": 56267,
-          "INDEPENDENT": 287
-        },
-        "alliance": {
-          "CUMHUR": 6035,
-          "MILLET": 1102
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 55.13,
-          "MHP": 13.45,
-          "HUDAPAR": 0.12,
-          "VP": 0.18,
-          "HDP": 0.85,
-          "CHP": 14.93,
-          "SAADET": 2.5,
-          "IYI": 11.3,
-          "INDEPENDENT": 12.495
-        },
-        "alliance": {
-          "CUMHUR": 1.21,
-          "MILLET": 0.22
-        }
-      }
-    },
-    "deputyCount": 6
+      "AKP": 55.13,
+      "MHP": 13.45,
+      "HUDAPAR": 0.12,
+      "VP": 0.18,
+      "HDP": 0.85,
+      "CHP": 14.93,
+      "SAADET": 2.5,
+      "IYIP": 11.3,
+      "INDEPENDENT": 12.495
+    }
   },
   {
-    "cityCode": "62",
-    "cityName": "TUNCELİ",
-    "registeredVoterCount": 64299,
-    "voterCount": 55449,
-    "validVoterCount": 54194,
+    "id": "62",
+    "name": "TUNCELİ",
+    "deputyCount": 1,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 7228,
-          "MHP": 3019,
-          "HUDAPAR": 57,
-          "VP": 63,
-          "HDP": 28219,
-          "CHP": 14358,
-          "SAADET": 165,
-          "IYI": 849,
-          "INDEPENDENT": 15
-        },
-        "alliance": {
-          "CUMHUR": 170,
-          "MILLET": 51
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 13.33,
-          "MHP": 5.57,
-          "HUDAPAR": 0.1,
-          "VP": 0.11,
-          "HDP": 52.07,
-          "CHP": 26.49,
-          "SAADET": 0.3,
-          "IYI": 1.56,
-          "INDEPENDENT": 165
-        },
-        "alliance": {
-          "CUMHUR": 0.31,
-          "MILLET": 0.09
-        }
-      }
-    },
-    "deputyCount": 1
+      "AKP": 13.33,
+      "MHP": 5.57,
+      "HUDAPAR": 0.1,
+      "VP": 0.11,
+      "HDP": 52.07,
+      "CHP": 26.49,
+      "SAADET": 0.3,
+      "IYIP": 1.56,
+      "INDEPENDENT": 165
+    }
   },
   {
-    "cityCode": "64",
-    "cityName": "UŞAK",
-    "registeredVoterCount": 266929,
-    "voterCount": 242827,
-    "validVoterCount": 236007,
+    "id": "64",
+    "name": "UŞAK",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 100364,
-          "MHP": 24672,
-          "HUDAPAR": 604,
-          "VP": 724,
-          "HDP": 6195,
-          "CHP": 67031,
-          "SAADET": 3263,
-          "IYI": 30507,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 2049,
-          "MILLET": 598
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 42.52,
-          "MHP": 10.45,
-          "HUDAPAR": 0.25,
-          "VP": 0.3,
-          "HDP": 2.62,
-          "CHP": 28.4,
-          "SAADET": 1.38,
-          "IYI": 12.92,
-          "INDEPENDENT": 3.263
-        },
-        "alliance": {
-          "CUMHUR": 0.86,
-          "MILLET": 0.25
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 42.52,
+      "MHP": 10.45,
+      "HUDAPAR": 0.25,
+      "VP": 0.3,
+      "HDP": 2.62,
+      "CHP": 28.4,
+      "SAADET": 1.38,
+      "IYIP": 12.92,
+      "INDEPENDENT": 3.263
+    }
   },
   {
-    "cityCode": "65",
-    "cityName": "VAN",
-    "registeredVoterCount": 639730,
-    "voterCount": 529789,
-    "validVoterCount": 511859,
+    "id": "65",
+    "name": "VAN",
+    "deputyCount": 8,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 157637,
-          "MHP": 14798,
-          "HUDAPAR": 4753,
-          "VP": 808,
-          "HDP": 310273,
-          "CHP": 10946,
-          "SAADET": 4031,
-          "IYI": 5992,
-          "INDEPENDENT": 314
-        },
-        "alliance": {
-          "CUMHUR": 2009,
-          "MILLET": 298
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 30.79,
-          "MHP": 2.89,
-          "HUDAPAR": 0.92,
-          "VP": 0.15,
-          "HDP": 60.61,
-          "CHP": 2.13,
-          "SAADET": 0.78,
-          "IYI": 1.17,
-          "INDEPENDENT": 4.031
-        },
-        "alliance": {
-          "CUMHUR": 0.39,
-          "MILLET": 0.05
-        }
-      }
-    },
-    "deputyCount": 8
+      "AKP": 30.79,
+      "MHP": 2.89,
+      "HUDAPAR": 0.92,
+      "VP": 0.15,
+      "HDP": 60.61,
+      "CHP": 2.13,
+      "SAADET": 0.78,
+      "IYIP": 1.17,
+      "INDEPENDENT": 4.031
+    }
   },
   {
-    "cityCode": "77",
-    "cityName": "YALOVA",
-    "registeredVoterCount": 178253,
-    "voterCount": 155158,
-    "validVoterCount": 152467,
+    "id": "77",
+    "name": "YALOVA",
+    "deputyCount": 3,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 65787,
-          "MHP": 11659,
-          "HUDAPAR": 286,
-          "VP": 322,
-          "HDP": 11713,
-          "CHP": 43843,
-          "SAADET": 1995,
-          "IYI": 15089,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 1347,
-          "MILLET": 426
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 43.14,
-          "MHP": 7.64,
-          "HUDAPAR": 0.18,
-          "VP": 0.21,
-          "HDP": 7.68,
-          "CHP": 28.75,
-          "SAADET": 1.3,
-          "IYI": 9.89,
-          "INDEPENDENT": 1.995
-        },
-        "alliance": {
-          "CUMHUR": 0.88,
-          "MILLET": 0.27
-        }
-      }
-    },
-    "deputyCount": 3
+      "AKP": 43.14,
+      "MHP": 7.64,
+      "HUDAPAR": 0.18,
+      "VP": 0.21,
+      "HDP": 7.68,
+      "CHP": 28.75,
+      "SAADET": 1.3,
+      "IYIP": 9.89,
+      "INDEPENDENT": 1.995
+    }
   },
   {
-    "cityCode": "66",
-    "cityName": "YOZGAT",
-    "registeredVoterCount": 296869,
-    "voterCount": 256041,
-    "validVoterCount": 251204,
+    "id": "66",
+    "name": "YOZGAT",
+    "deputyCount": 4,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 131340,
-          "MHP": 62006,
-          "HUDAPAR": 443,
-          "VP": 430,
-          "HDP": 2100,
-          "CHP": 28575,
-          "SAADET": 2966,
-          "IYI": 18727,
-          "INDEPENDENT": 0
-        },
-        "alliance": {
-          "CUMHUR": 4294,
-          "MILLET": 323
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 52.28,
-          "MHP": 24.68,
-          "HUDAPAR": 0.17,
-          "VP": 0.17,
-          "HDP": 0.83,
-          "CHP": 11.37,
-          "SAADET": 1.18,
-          "IYI": 7.45,
-          "INDEPENDENT": 2.966
-        },
-        "alliance": {
-          "CUMHUR": 1.7,
-          "MILLET": 0.12
-        }
-      }
-    },
-    "deputyCount": 4
+      "AKP": 52.28,
+      "MHP": 24.68,
+      "HUDAPAR": 0.17,
+      "VP": 0.17,
+      "HDP": 0.83,
+      "CHP": 11.37,
+      "SAADET": 1.18,
+      "IYIP": 7.45,
+      "INDEPENDENT": 2.966
+    }
   },
   {
-    "cityCode": "67",
-    "cityName": "ZONGULDAK",
-    "registeredVoterCount": 447085,
-    "voterCount": 392815,
-    "validVoterCount": 377652,
+    "id": "67",
+    "name": "ZONGULDAK",
+    "deputyCount": 5,
     "results": {
-      "count": {
-        "parties": {
-          "AKP": 170175,
-          "MHP": 40689,
-          "HUDAPAR": 815,
-          "VP": 1522,
-          "HDP": 5382,
-          "CHP": 116804,
-          "SAADET": 6726,
-          "IYI": 29677,
-          "INDEPENDENT": 1191
-        },
-        "alliance": {
-          "CUMHUR": 3461,
-          "MILLET": 1210
-        }
-      },
-      "percentage": {
-        "parties": {
-          "AKP": 45.06,
-          "MHP": 10.77,
-          "HUDAPAR": 0.21,
-          "VP": 0.4,
-          "HDP": 1.42,
-          "CHP": 30.92,
-          "SAADET": 1.78,
-          "IYI": 7.85,
-          "INDEPENDENT": 6.726
-        },
-        "alliance": {
-          "CUMHUR": 0.91,
-          "MILLET": 0.32
-        }
-      }
-    },
-    "deputyCount": 5
+      "AKP": 45.06,
+      "MHP": 10.77,
+      "HUDAPAR": 0.21,
+      "VP": 0.4,
+      "HDP": 1.42,
+      "CHP": 30.92,
+      "SAADET": 1.78,
+      "IYIP": 7.85,
+      "INDEPENDENT": 6.726
+    }
   }
 ]

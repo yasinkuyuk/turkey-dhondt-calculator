@@ -1,3 +1,5 @@
+import DashboardView from "./DashboardView.vue";
 import TurkeyMap from "./TurkeyMap.vue";
+import ProvinceDropdown from "./ProvinceDropdown.vue";
 
-export { TurkeyMap };
+export { DashboardView, ProvinceDropdown, TurkeyMap };
