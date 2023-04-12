@@ -1,19 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="bg-slate-100 min-h-screen text-center">
+    <div class="p-10">
+      <div class="mb-8">
+        <h2 class="text-2xl font-semi bold">Seçim 2023 - D'Hondt Simülatörü</h2>
+      </div>
+      <div class="lg:px-72">
+        <turkey-map></turkey-map>
+      </div>
+      {{ currentProvince }}
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { TurkeyMap } from "@/components";
+import { mapGetters } from "vuex";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  computed: {
+    ...mapGetters(["currentProvince", "provinces"]),
+  },
+  components: { TurkeyMap },
+};
 </script>
 
 <style>
