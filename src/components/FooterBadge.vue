@@ -3,7 +3,7 @@
     class="bg-slate-700 text-slate-50 w-full h-12 p-4 font-semibold text-right text-xs"
   >
     <a
-      href="https:/www.linkedin.com/in/yasinkuyuk"
+      href="https://www.linkedin.com/in/yasinkuyuk"
       target="_blank"
       class="hover:underline mx-4"
       ><font-awesome-icon
@@ -14,7 +14,7 @@
     >
 
     <a
-      href="https:/github.com/yasinkuyuk"
+      href="https://github.com/yasinkuyuk"
       target="_blank"
       class="hover:underline mx-4"
       ><font-awesome-icon
