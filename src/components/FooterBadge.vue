@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-slate-700 text-slate-50 w-full h-12 p-4 font-semibold text-xs"
+    class="bg-slate-300 text-slate-700 w-full h-12 p-4 font-semibold text-xs"
   >
     <a
       href="https://www.linkedin.com/in/yasinkuyuk"
@@ -21,7 +21,7 @@
         class="mr-1"
         :icon="{ prefix: 'fab', iconName: 'github' }"
       ></font-awesome-icon
-      >Kaynak Kodu</a
+      >Source Code</a
     >
   </div>
 </template>

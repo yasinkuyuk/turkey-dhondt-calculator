@@ -55,10 +55,10 @@
         :visible.sync="isResultsVisible"
         :width="dialogWidth"
         class="rounded-md"
-        :before-close="closeResults"
+        id="results"
       >
-        <div class="grid grid-cols-2">
-          <div class="col-span-2 md:col-span-1">
+        <div class="text-center">
+          <div class="w-full grid grid-col-1 md:grid-cols-2 my-4">
             <div class="flex items-center gap-1 mb-1">
               <div class="text-sm text-gray-400">Seçmen Sayısı:</div>
               <div class="text-sm font-semibold">-</div>
@@ -72,22 +72,45 @@
               </div>
             </div>
           </div>
-          <div class="col-span-2 md:col-span-1">
-            <div class="grid grid-cols-2 gap-2">
-              <div
-                v-for="party in Object.keys(votes)"
-                :key="party"
-                class="border-1 text-center rounded-md shadow-lg bg-white"
-              >
-                <div class="text-2xl font-semibold">
-                  {{ results[party] }}
-                </div>
-                <div class="text-gray-400 mt-1">{{ party }}</div>
-
-                <hr class="my-1" />
-                <div class="">%{{ votes[party] }}</div>
+          <div class="grid grid-cols-4 gap-2">
+            <div
+              v-for="party in Object.keys(votes)"
+              :key="party"
+              class="border-1 text-center rounded-md shadow-lg bg-white col-span-2 md:col-span-1"
+            >
+              <div class="text-2xl font-semibold">
+                {{ results[party] }}
               </div>
+              <div class="text-gray-400 mt-1">{{ party }}</div>
+
+              <hr class="my-1" />
+              <div class="">%{{ votes[party] }}</div>
             </div>
+          </div>
+          <div class="w-full my-4" id="download-wrapper">
+            <el-button
+              @click="exportResultsAsImage"
+              type="primary"
+              class="font-semibold"
+              ><font-awesome-icon
+                icon="fa-download"
+                class="mr-2"
+              ></font-awesome-icon
+              >Sonuçları İndir</el-button
+            >
+          </div>
+          <div
+            class="hidden text-md font-semibold text-gray-500 my-8"
+            id="link-wrapper"
+          >
+            <div>
+              <vue-qr
+                text="https://www.secimrehberim.com"
+                :size="100"
+                backgroundColor="#fafafa"
+              ></vue-qr>
+            </div>
+            wwww.secimrehberi.com
           </div>
         </div>
       </el-dialog>
@@ -101,12 +124,16 @@ import ProvinceDropdown from "./ProvinceDropdown.vue";
 import VueSlider from "vue-slider-component";
 import "vue-slider-component/theme/antd.css";
 import { DhondtCalculator } from "@/utils";
+import { toJpeg } from "html-to-image";
+import { saveAs } from "file-saver";
+import VueQr from "vue-qr";
 
 export default {
   name: "DashboardView",
   components: {
     ProvinceDropdown,
     VueSlider,
+    VueQr,
   },
   data() {
     return {
@@ -132,7 +159,7 @@ export default {
         );
         this.loading = false;
         this.isResultsVisible = true;
-      }, 1000);
+      }, 1);
     },
     handleDistinctClick() {
       let index = this.currentProvince.distincts.findIndex(
@@ -157,8 +184,21 @@ export default {
         );
       });
     },
-    closeResults() {
-      this.isResultsVisible = false;
+    exportResultsAsImage() {
+      let buttonWrapper = document.getElementById("download-wrapper");
+      let linkWrapper = document.getElementById("link-wrapper");
+      toJpeg(document.getElementById("results"))
+        .then((url) => {
+          buttonWrapper.setAttribute("style", "display:none;");
+          linkWrapper.setAttribute("style", "display:block;");
+
+          saveAs(url, this.filename);
+          buttonWrapper.setAttribute("style", "display:block;");
+          linkWrapper.setAttribute("style", "display:none;");
+        })
+        .catch((error) => {
+          console.error("Resim indirilirken bir hata oluştu:", error);
+        });
     },
   },
   computed: {
@@ -171,7 +211,12 @@ export default {
       return total <= 100;
     },
     dialogWidth() {
-      return window.innerWidth > 768 ? "50%" : "80%";
+      return window.innerWidth > 768 ? "50%" : "90%";
+    },
+    filename() {
+      return `${this.currentProvince.name} ${
+        this.currentProvince.distincts ? this.provinceData.name : ""
+      } Sonuçları.jpeg`;
     },
   },
   mounted() {

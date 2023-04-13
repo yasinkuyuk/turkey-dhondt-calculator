@@ -13,7 +13,7 @@
         :key="province.id"
         :class="`transition-transform cursor-pointer stroke-slate-400 stroke-[0.3] ${
           currentProvince?.id === province.id
-            ? 'fill-emerald-500 hover:fill-emerald-500'
+            ? 'fill-blue-500 hover:fill-blue-500'
             : 'fill-slate-200 hover:fill-slate-300'
         }`"
         @click="setCurrentProvince(province.id)"
