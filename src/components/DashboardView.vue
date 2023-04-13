@@ -110,7 +110,7 @@
                 backgroundColor="#fafafa"
               ></vue-qr>
             </div>
-            wwww.secimrehberi.com
+            www.secimrehberim.com
           </div>
         </div>
       </el-dialog>
@@ -159,7 +159,7 @@ export default {
         );
         this.loading = false;
         this.isResultsVisible = true;
-      }, 1);
+      }, 750);
     },
     handleDistinctClick() {
       let index = this.currentProvince.distincts.findIndex(
@@ -187,11 +187,10 @@ export default {
     exportResultsAsImage() {
       let buttonWrapper = document.getElementById("download-wrapper");
       let linkWrapper = document.getElementById("link-wrapper");
+      buttonWrapper.setAttribute("style", "display:none;");
+      linkWrapper.setAttribute("style", "display:block;");
       toJpeg(document.getElementById("results"))
         .then((url) => {
-          buttonWrapper.setAttribute("style", "display:none;");
-          linkWrapper.setAttribute("style", "display:block;");
-
           saveAs(url, this.filename);
           buttonWrapper.setAttribute("style", "display:block;");
           linkWrapper.setAttribute("style", "display:none;");
