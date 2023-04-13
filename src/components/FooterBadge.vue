@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-slate-700 text-slate-50 w-full h-12 p-4 font-semibold text-right text-xs"
+    class="bg-slate-700 text-slate-50 w-full h-12 p-4 font-semibold text-xs"
   >
     <a
       href="https://www.linkedin.com/in/yasinkuyuk"

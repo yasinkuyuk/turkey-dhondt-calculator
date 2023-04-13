@@ -196,4 +196,8 @@ export default {
 .el-dialog__body {
   background-color: #fafafa;
 }
+
+.el-button--primary {
+  background-color: #66b1ff;
+}
 </style>
