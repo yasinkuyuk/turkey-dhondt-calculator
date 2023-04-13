@@ -14,14 +14,14 @@
     >
 
     <a
-      href="https://github.com/yasinkuyuk"
+      href="https://github.com/yasinkuyuk/turkey-dhondt-calculator"
       target="_blank"
       class="hover:underline mx-4"
       ><font-awesome-icon
         class="mr-1"
         :icon="{ prefix: 'fab', iconName: 'github' }"
       ></font-awesome-icon
-      >yasinkuyuk</a
+      >Kaynak Kodu</a
     >
   </div>
 </template>

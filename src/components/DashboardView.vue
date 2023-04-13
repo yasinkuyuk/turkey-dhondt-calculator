@@ -53,7 +53,7 @@
           currentProvince.distincts ? ` - ${activeDistinct}` : ''
         }`"
         :visible.sync="isResultsVisible"
-        width="50%"
+        :width="dialogWidth"
         class="rounded-md"
         :before-close="closeResults"
       >
@@ -169,6 +169,9 @@ export default {
         total += this.votes[party];
       });
       return total <= 100;
+    },
+    dialogWidth() {
+      return window.innerWidth > 768 ? "50%" : "80%";
     },
   },
   mounted() {
