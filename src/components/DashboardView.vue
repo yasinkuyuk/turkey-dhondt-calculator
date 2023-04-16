@@ -18,35 +18,64 @@
     </div>
     <div class="grid grid-cols-6 text-left gap-x-4">
       <div
-        class="col-span-6 md:col-span-3 lg:col-span-2 my-2 flex items-center justify-between bg-white p-4 rounded-md shadow-lg"
+        class="col-span-6 md:col-span-3 lg:col-span-2 my-2 flex flex-col items-center bg-white p-4 rounded-md shadow-lg"
         v-for="party in parties"
         :key="party.keyword"
       >
-        <div class="text-sm text-gray-600">{{ party.name }}:</div>
-        <div class="w-48">
-          <vue-slider
-            v-model="votes[party.keyword]"
-            :enable-cross="false"
-            tooltip-formatter="%{value}"
-            :interval="0.01"
-          ></vue-slider>
+        <div class="text-sm text-gray-400 font-semibold flex text-left items-center gap-x-4">
+          <div><img :src="`${party.keyword}.png`" class="h-12"/></div>
+          <div>
+            {{ party.name }}
+          </div>
         </div>
-        <div class="font-semibold">%{{ votes[party.keyword] }}</div>
+        <el-divider></el-divider>
+        <div class="flex flex-col gap-y-4 justify-center items-center">
+          <div class="w-56">
+            <vue-slider
+              v-model="votes[party.keyword]"
+              :enable-cross="false"
+              tooltip-formatter="%{value}"
+              :interval="0.01"
+            ></vue-slider>
+          </div>
+          <div class="font-semibold">
+            <el-input-number
+              v-model="votes[party.keyword]"
+              :min="0"
+              :max="100"
+              :step="0.1"
+              size="small"
+              :precision="2"
+            ></el-input-number>
+          </div>
+        </div>
       </div>
       <div
-        class="col-span-6 md:col-span-3 lg:col-span-2 my-2 flex items-center justify-end py-4"
+        class="col-span-6 md:col-span-3 lg:col-span-2 my-2 flex flex-col items-center bg-white p-4 rounded-md shadow-lg"
       >
-        <el-button @click="resetVotes" class="w-full" style="width: 100%"
-          >Sıfırla</el-button
-        >
-        <el-button
-          @click="calculateDeputies"
-          class="w-full"
-          :disabled="!isValid"
-          :loading="loading"
-          type="primary"
-          >Hesapla</el-button
-        >
+        <div class="text-sm text-gray-400 font-semibold">Diğer</div>
+        <el-divider></el-divider>
+        <div class="flex flex-col gap-y-4 justify-center items-center">
+          <div class="w-56">
+            <vue-slider
+              v-model="otherVotes"
+              :enable-cross="false"
+              tooltip-formatter="%{value}"
+              :interval="0.01"
+              :disabled="true"
+            ></vue-slider>
+          </div>
+          <div class="font-semibold">
+            <el-input-number
+              v-model="otherVotes"
+              :min="0"
+              :max="100"
+              size="small"
+              :precision="2"
+              :disabled="true"
+            ></el-input-number>
+          </div>
+        </div>
       </div>
       <el-dialog
         :title="`${currentProvince.name}${
@@ -114,6 +143,31 @@
           </div>
         </div>
       </el-dialog>
+    </div>
+    <div
+      class="px-4 py-2 text-left mt-2 mb-4 bg-red-50 rounded-md border-l-4 border-l-red-600 shadow-lg text-sm font-semibold fixed bottom-2 z-50 mr-3"
+      v-if="!isValid"
+    >
+      <font-awesome-icon
+        icon="fa-circle-exclamation"
+        class="text-red-600 mr-1"
+      ></font-awesome-icon>
+
+      Toplam oy oranı %100'den fazla olamaz. Lütfen oy oranlarını tekrar gözden
+      geçirin.
+    </div>
+    <div class="my-2 flex items-center justify-end py-4">
+      <el-button @click="resetVotes" class="w-full" style="width: 100%"
+        >SIFIRLA</el-button
+      >
+      <el-button
+        @click="calculateDeputies"
+        class="w-full"
+        :disabled="!isValid"
+        :loading="loading"
+        type="primary"
+        >HESAPLA</el-button
+      >
     </div>
   </div>
 </template>
@@ -216,6 +270,15 @@ export default {
       return `${this.currentProvince.name} ${
         this.currentProvince.distincts ? this.provinceData.name : ""
       } Sonuçları.jpeg`;
+    },
+    otherVotes() {
+      let votes = 0;
+
+      Object.keys(this.votes).forEach((party) => {
+        votes += this.votes[party];
+      });
+
+      return 100 - votes;
     },
   },
   mounted() {
