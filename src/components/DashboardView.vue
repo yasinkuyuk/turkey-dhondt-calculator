@@ -22,10 +22,27 @@
         v-for="party in parties"
         :key="party.keyword"
       >
-        <div class="text-sm text-gray-400 font-semibold flex text-left items-center gap-x-4">
-          <div><img :src="`${party.keyword}.png`" class="h-12"/></div>
-          <div>
-            {{ party.name }}
+        <div
+          class="text-sm text-gray-400 font-semibold flex text-left items-center justify-between flex-col md:flex-row"
+        >
+          <div class="flex items-center gap-x-4">
+            <div><img :src="`${party.keyword}.png`" class="h-12" /></div>
+            <div>
+              {{ party.name }}
+            </div>
+          </div>
+          <div class="hidden md:block">
+            <el-divider
+              direction="vertical"
+              class="hidden md:block"
+            ></el-divider>
+          </div>
+          <div class="font-normal text-sm mt-3 md:mt-0">
+            Barajı geçti mi?<el-switch
+              v-model="party.isPassedThreshold"
+              class="ml-1"
+            >
+            </el-switch>
           </div>
         </div>
         <el-divider></el-divider>
@@ -108,7 +125,7 @@
               class="border-1 text-center rounded-md shadow-lg bg-white col-span-2 md:col-span-1"
             >
               <div class="text-2xl font-semibold">
-                {{ results[party] }}
+                {{ results[party] ? results[party] : 0 }}
               </div>
               <div class="text-gray-400 mt-1">{{ party }}</div>
 
@@ -207,8 +224,15 @@ export default {
       this.loading = true;
 
       setTimeout(() => {
+        let calculatedVotes = {};
+        this.parties.forEach((party) => {
+          if (party.isPassedThreshold) {
+            calculatedVotes[party.keyword] = this.votes[party.keyword];
+          }
+        });
+
         this.results = DhondtCalculator(
-          this.votes,
+          calculatedVotes,
           this.provinceData.deputyCount
         );
         this.loading = false;
