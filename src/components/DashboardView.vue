@@ -18,7 +18,7 @@
     </div>
     <div class="grid grid-cols-6 text-left gap-x-4">
       <div
-        class="col-span-6 md:col-span-3 lg:col-span-2 my-2 flex flex-col items-center bg-white p-4 rounded-md shadow-lg"
+        class="col-span-6 md:col-span-3 lg:col-span-2 my-2 flex flex-col items-center bg-white p-4 rounded-md shadow-lg relative"
         v-for="party in parties"
         :key="party.keyword"
       >
@@ -65,6 +65,14 @@
               :precision="2"
             ></el-input-number>
           </div>
+        </div>
+
+        <div
+          class="absolute bottom-2 right-2 underline text-blue-800 text-xs cursor-pointer hover:text-blue-700"
+          title="İlgili partinin oylarının belirli bir kısmını başka partilere parçalı olarak dağıtmanızı sağlar."
+          @click="setCurrentParty(party)"
+        >
+          Oylarını Partilere Dağıt
         </div>
       </div>
       <div
@@ -162,7 +170,7 @@
       </el-dialog>
     </div>
     <div
-      class="px-4 py-2 text-left mt-2 mb-4 bg-red-50 rounded-md border-l-4 border-l-red-600 shadow-lg text-sm font-semibold fixed bottom-2 z-50 mr-3"
+      class="px-4 py-2 text-left mt-2 mb-4 bg-red-50 rounded-md border-l-4 border-l-red-600 shadow-lg text-sm fixed bottom-2 z-50 mr-3"
       v-if="!isValid"
     >
       <font-awesome-icon
@@ -186,6 +194,112 @@
         >HESAPLA</el-button
       >
     </div>
+    <el-dialog
+      title="Oyları Diğer Partilere Dağıt"
+      :visible.sync="isPartialVotesVisible"
+      :width="dialogWidth"
+      class="rounded-md"
+      append-to-body
+    >
+      <div class="text-center">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="flex items-center gap-x-4 font-semibold">
+            <div>
+              <img
+                :src="`${differences.currentParty.keyword}.png`"
+                class="h-12"
+              />
+            </div>
+            <div>
+              {{ differences.currentParty.name }}
+            </div>
+          </div>
+          <div class="flex items-center gap-x-2 font-semibold">
+            <div class="text-gray-400 text-md">Güncel Oy Oranı:</div>
+            <div class="text-gray-600 text-xl">
+              %{{ currentPartyVotesOnDİfferences
+              }}<span
+                v-if="
+                  currentPartyVotesOnDİfferences !==
+                  votes[differences.currentParty.keyword]?.toFixed(2)
+                "
+                class="text-red-600"
+                ><font-awesome-icon icon="fa-caret-down"></font-awesome-icon
+              ></span>
+            </div>
+          </div>
+        </div>
+
+        <el-divider class="text-red-800 bg-blue-600"></el-divider>
+        <el-scrollbar style="height: 420px">
+          <div class="">
+            <div
+              class="my-2 text-sm"
+              v-for="party in differences.others"
+              :key="party.keyword"
+            >
+              <div class="flex items-center gap-x-4">
+                <div>
+                  <img :src="`${party.keyword}.png`" class="h-8" />
+                </div>
+                <div>
+                  {{ party.name }}
+                </div>
+                <div>
+                  <el-input-number
+                    v-model="party.difference"
+                    :min="0"
+                    :max="100"
+                    size="small"
+                    :precision="2"
+                    :step="0.5"
+                  ></el-input-number>
+                </div>
+                <div class="flex items-center gap-x-2" v-if="party.difference">
+                  <div>%{{ votes[party.keyword] }}</div>
+                  <div>
+                    <font-awesome-icon
+                      icon="fa-arrow-right"
+                    ></font-awesome-icon>
+                  </div>
+                  <div class="text-emerald-600 font-semibold">
+                    %{{ votes[party.keyword] + party.difference }}
+                    <font-awesome-icon icon="fa-caret-up"></font-awesome-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </el-scrollbar>
+        <div
+          class="px-4 py-2 text-left mt-2 mb-4 bg-red-50 rounded-md border-l-4 border-l-red-600 shadow-lg text-sm z-50 mr-3"
+          v-if="!isDİfferencesValid"
+        >
+          <font-awesome-icon
+            icon="fa-circle-exclamation"
+            class="text-red-600 mr-1"
+          ></font-awesome-icon>
+
+          Dağıtılan oy oranları toplamı, ilgili partinin toplam oyundan fazla
+          olamaz!
+        </div>
+        <div class="my-2 flex items-center justify-end">
+          <el-button
+            @click="resetDifferences"
+            class="w-full"
+            style="width: 100%"
+            >SIFIRLA</el-button
+          >
+          <el-button
+            @click="applyDifferences"
+            class="w-full"
+            type="primary"
+            :disabled="!isDİfferencesValid"
+            >UYGULA</el-button
+          >
+        </div>
+      </div>
+    </el-dialog>
   </div>
 </template>
 
@@ -212,8 +326,13 @@ export default {
       activeDistinct: "",
       provinceData: {},
       isResultsVisible: false,
+      isPartialVotesVisible: false,
       loading: false,
       results: {},
+      differences: {
+        currentParty: {},
+        others: [],
+      },
     };
   },
   methods: {
@@ -277,6 +396,36 @@ export default {
           console.error("Resim indirilirken bir hata oluştu:", error);
         });
     },
+    setCurrentParty(party) {
+      this.differences.currentParty = {
+        ...party,
+        vote: this.votes[party.keyword],
+      };
+      this.differences.others = this.parties
+        .filter((party_) => party_.keyword !== party.keyword)
+        .map((party_) => {
+          return {
+            ...party_,
+            difference: 0,
+          };
+        });
+      this.isPartialVotesVisible = true;
+    },
+    resetDifferences() {
+      this.differences.others.forEach((party) => {
+        party.difference = 0;
+      });
+    },
+    applyDifferences() {
+      this.votes[this.differences.currentParty.keyword] -=
+        this.totalDifferencesVotes;
+      this.differences.others.forEach((party) => {
+        if (party.difference) {
+          this.votes[party.keyword] += party.difference;
+        }
+      });
+      this.isPartialVotesVisible = false;
+    },
   },
   computed: {
     ...mapGetters(["parties", "provinces", "currentProvince"]),
@@ -303,6 +452,22 @@ export default {
       });
 
       return 100 - votes;
+    },
+    currentPartyVotesOnDİfferences() {
+      let final =
+        this.votes[this.differences.currentParty.keyword] -
+        this.totalDifferencesVotes;
+      return (final > 0 ? final : 0).toFixed(2);
+    },
+    totalDifferencesVotes() {
+      let count = 0;
+      this.differences.others.forEach((party) => {
+        count += party.difference;
+      });
+      return count;
+    },
+    isDİfferencesValid() {
+      return this.differences.currentParty.vote >= this.totalDifferencesVotes;
     },
   },
   mounted() {
