@@ -72,7 +72,7 @@
           title="İlgili partinin oylarının belirli bir kısmını başka partilere parçalı olarak dağıtmanızı sağlar."
           @click="setCurrentParty(party)"
         >
-          Oylarını Partilere Dağıt
+          Oyları Dağıt
         </div>
       </div>
       <div
@@ -234,7 +234,7 @@
         <el-scrollbar style="height: 420px">
           <div class="">
             <div
-              class="my-2 text-sm"
+              class="my-2 text-xs"
               v-for="party in differences.others"
               :key="party.keyword"
             >
@@ -243,7 +243,7 @@
                   <img :src="`${party.keyword}.png`" class="h-8" />
                 </div>
                 <div>
-                  {{ party.name }}
+                  {{ party.keyword }}
                 </div>
                 <div>
                   <el-input-number
@@ -255,7 +255,10 @@
                     :step="0.5"
                   ></el-input-number>
                 </div>
-                <div class="flex items-center gap-x-2" v-if="party.difference">
+                <div
+                  class="flex items-center gap-x-1 text-[11px]"
+                  v-if="party.difference"
+                >
                   <div>%{{ votes[party.keyword] }}</div>
                   <div>
                     <font-awesome-icon
@@ -263,7 +266,7 @@
                     ></font-awesome-icon>
                   </div>
                   <div class="text-emerald-600 font-semibold">
-                    %{{ votes[party.keyword] + party.difference }}
+                    %{{ (votes[party.keyword] + party.difference).toFixed(2) }}
                     <font-awesome-icon icon="fa-caret-up"></font-awesome-icon>
                   </div>
                 </div>
@@ -495,5 +498,9 @@ export default {
 
 .el-button--primary {
   background-color: #66b1ff;
+}
+
+.el-input-number--small {
+  width: 120px;
 }
 </style>
