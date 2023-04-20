@@ -11,8 +11,14 @@
       "HDP": 13.4,
       "CHP": 26.17,
       "SAADET": 1.06,
-      "IYIP": 12.33,
-      "INDEPENDENT": 13.738
+      "IYIP": 12.33
+    },
+    "previousDeputyCounts": {
+      "AKP": 5,
+      "MHP": 2,
+      "HDP": 2,
+      "CHP": 4,
+      "IYIP": 2
     }
   },
   {
@@ -27,8 +33,11 @@
       "HDP": 15.35,
       "CHP": 11.8,
       "SAADET": 1.63,
-      "IYIP": 5.27,
-      "INDEPENDENT": 5.514
+      "IYIP": 5.27
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "CHP": 1
     }
   },
   {
@@ -43,8 +52,13 @@
       "HDP": 0.75,
       "CHP": 14.26,
       "SAADET": 1.1,
-      "IYIP": 13.56,
-      "INDEPENDENT": 4.965
+      "IYIP": 13.56
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "MHP": 1,
+      "CHP": 1,
+      "IYIP": 1
     }
   },
   {
@@ -59,8 +73,11 @@
       "HDP": 63.62,
       "CHP": 2.41,
       "SAADET": 0.8,
-      "IYIP": 1.56,
-      "INDEPENDENT": 1.813
+      "IYIP": 1.56
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "HDP": 3
     }
   },
   {
@@ -75,8 +92,12 @@
       "HDP": 1.08,
       "CHP": 9.58,
       "SAADET": 0.83,
-      "IYIP": 10.65,
-      "INDEPENDENT": 1.886
+      "IYIP": 10.65
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "MHP": 1,
+      "IYIP": 1
     }
   },
   {
@@ -91,8 +112,11 @@
       "HDP": 1.8,
       "CHP": 24.82,
       "SAADET": 1.11,
-      "IYIP": 12.28,
-      "INDEPENDENT": 2.469
+      "IYIP": 12.28
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -110,8 +134,14 @@
           "HDP": 8.56,
           "CHP": 35.78,
           "SAADET": 1.37,
-          "IYIP": 12.5,
-          "INDEPENDENT": 16.959
+          "IYIP": 12.5
+        },
+        "previousDeputyCounts": {
+          "AKP": 4,
+          "MHP": 1,
+          "HDP": 1,
+          "CHP": 5,
+          "IYIP": 2
         }
       },
       {
@@ -125,8 +155,13 @@
           "HDP": 3.81,
           "CHP": 17.37,
           "SAADET": 1.54,
-          "IYIP": 10.54,
-          "INDEPENDENT": 16.096
+          "IYIP": 10.54
+        },
+        "previousDeputyCounts": {
+          "AKP": 6,
+          "MHP": 2,
+          "CHP": 2,
+          "IYIP": 1
         }
       },
       {
@@ -140,8 +175,13 @@
           "HDP": 5.44,
           "CHP": 23.81,
           "SAADET": 1.59,
-          "IYIP": 13.53,
-          "INDEPENDENT": 18.679
+          "IYIP": 13.53
+        },
+        "previousDeputyCounts": {
+          "AKP": 5,
+          "MHP": 2,
+          "CHP": 3,
+          "IYIP": 2
         }
       }
     ]
@@ -158,8 +198,14 @@
       "HDP": 7.01,
       "CHP": 29.31,
       "SAADET": 0.95,
-      "IYIP": 17.19,
-      "INDEPENDENT": 13.781
+      "IYIP": 17.19
+    },
+    "previousDeputyCounts": {
+      "AKP": 6,
+      "MHP": 1,
+      "HDP": 1,
+      "CHP": 5,
+      "IYIP": 3
     }
   },
   {
@@ -174,8 +220,11 @@
       "HDP": 23.56,
       "CHP": 25.91,
       "SAADET": 1,
-      "IYIP": 5.11,
-      "INDEPENDENT": 569
+      "IYIP": 5.11
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 1
     }
   },
   {
@@ -190,8 +239,11 @@
       "HDP": 4.53,
       "CHP": 32.23,
       "SAADET": 1.46,
-      "IYIP": 10.35,
-      "INDEPENDENT": 1.641
+      "IYIP": 10.35
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 1
     }
   },
   {
@@ -206,8 +258,12 @@
       "HDP": 9.11,
       "CHP": 34.23,
       "SAADET": 0.69,
-      "IYIP": 15.01,
-      "INDEPENDENT": 4.939
+      "IYIP": 15.01
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "CHP": 3,
+      "IYIP": 1
     }
   },
   {
@@ -222,8 +278,12 @@
       "HDP": 3.84,
       "CHP": 30.56,
       "SAADET": 1.16,
-      "IYIP": 14.94,
-      "INDEPENDENT": 9.811
+      "IYIP": 14.94
+    },
+    "previousDeputyCounts": {
+      "AKP": 5,
+      "CHP": 3,
+      "IYIP": 1
     }
   },
   {
@@ -238,8 +298,11 @@
       "HDP": 1.22,
       "CHP": 25.51,
       "SAADET": 2.14,
-      "IYIP": 5.84,
-      "INDEPENDENT": 2.639
+      "IYIP": 5.84
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 1
     }
   },
   {
@@ -254,8 +317,11 @@
       "HDP": 63.47,
       "CHP": 1.31,
       "SAADET": 3.15,
-      "IYIP": 1.1,
-      "INDEPENDENT": 8.971
+      "IYIP": 1.1
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "HDP": 4
     }
   },
   {
@@ -270,8 +336,10 @@
       "HDP": 0.7,
       "CHP": 3.82,
       "SAADET": 3.29,
-      "IYIP": 6.17,
-      "INDEPENDENT": 1.571
+      "IYIP": 6.17
+    },
+    "previousDeputyCounts": {
+      "AKP": 1
     }
   },
   {
@@ -286,8 +354,11 @@
       "HDP": 2.94,
       "CHP": 28.28,
       "SAADET": 1.12,
-      "IYIP": 14.32,
-      "INDEPENDENT": 1.539
+      "IYIP": 14.32
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 1
     }
   },
   {
@@ -302,8 +373,11 @@
       "HDP": 27.09,
       "CHP": 1.78,
       "SAADET": 1.08,
-      "IYIP": 4.03,
-      "INDEPENDENT": 1.517
+      "IYIP": 4.03
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "HDP": 1
     }
   },
   {
@@ -318,8 +392,11 @@
       "HDP": 43.32,
       "CHP": 2.24,
       "SAADET": 1.1,
-      "IYIP": 3.22,
-      "INDEPENDENT": 1.767
+      "IYIP": 3.22
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "HDP": 1
     }
   },
   {
@@ -334,8 +411,11 @@
       "HDP": 1.6,
       "CHP": 20.21,
       "SAADET": 1.53,
-      "IYIP": 8.61,
-      "INDEPENDENT": 2.998
+      "IYIP": 8.61
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -350,8 +430,11 @@
       "HDP": 1.44,
       "CHP": 20.17,
       "SAADET": 1.54,
-      "IYIP": 20.29,
-      "INDEPENDENT": 2.643
+      "IYIP": 20.29
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -369,8 +452,13 @@
           "HDP": 4.36,
           "CHP": 25.8,
           "SAADET": 1.66,
-          "IYIP": 14.41,
-          "INDEPENDENT": 16.15
+          "IYIP": 14.41
+        },
+        "previousDeputyCounts": {
+          "AKP": 5,
+          "MHP": 1,
+          "CHP": 3,
+          "IYIP": 1
         }
       },
       {
@@ -384,8 +472,13 @@
           "HDP": 6.34,
           "CHP": 19.41,
           "SAADET": 1.8,
-          "IYIP": 10.7,
-          "INDEPENDENT": 16.646
+          "IYIP": 10.7
+        },
+        "previousDeputyCounts": {
+          "AKP": 6,
+          "MHP": 1,
+          "CHP": 2,
+          "IYIP": 1
         }
       }
     ]
@@ -402,8 +495,11 @@
       "HDP": 3.32,
       "CHP": 34.09,
       "SAADET": 0.76,
-      "IYIP": 17.05,
-      "INDEPENDENT": 2.786
+      "IYIP": 17.05
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 2
     }
   },
   {
@@ -418,8 +514,10 @@
       "HDP": 0.6,
       "CHP": 6.29,
       "SAADET": 1.09,
-      "IYIP": 11.99,
-      "INDEPENDENT": 1.27
+      "IYIP": 11.99
+    },
+    "previousDeputyCounts": {
+      "AKP": 2
     }
   },
   {
@@ -434,8 +532,11 @@
       "HDP": 3.22,
       "CHP": 20.27,
       "SAADET": 1.09,
-      "IYIP": 8.49,
-      "INDEPENDENT": 3.801
+      "IYIP": 8.49
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "CHP": 1
     }
   },
   {
@@ -450,8 +551,12 @@
       "HDP": 3.61,
       "CHP": 28.17,
       "SAADET": 0.83,
-      "IYIP": 16.73,
-      "INDEPENDENT": 5.532
+      "IYIP": 16.73
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "CHP": 3,
+      "IYIP": 1
     }
   },
   {
@@ -466,8 +571,11 @@
       "HDP": 67.07,
       "CHP": 2,
       "SAADET": 1.68,
-      "IYIP": 2.73,
-      "INDEPENDENT": 13.955
+      "IYIP": 2.73
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "HDP": 9
     }
   },
   {
@@ -482,8 +590,11 @@
       "HDP": 1.59,
       "CHP": 14.31,
       "SAADET": 1.49,
-      "IYIP": 6.76,
-      "INDEPENDENT": 3.584
+      "IYIP": 6.76
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "MHP": 1
     }
   },
   {
@@ -498,8 +609,12 @@
       "HDP": 3.26,
       "CHP": 45.97,
       "SAADET": 1.03,
-      "IYIP": 15.89,
-      "INDEPENDENT": 2.765
+      "IYIP": 15.89
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 2,
+      "IYIP": 1
     }
   },
   {
@@ -514,8 +629,11 @@
       "HDP": 9.86,
       "CHP": 10.46,
       "SAADET": 1.78,
-      "IYIP": 7.74,
-      "INDEPENDENT": 6.078
+      "IYIP": 7.74
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "CHP": 1
     }
   },
   {
@@ -530,8 +648,10 @@
       "HDP": 5.28,
       "CHP": 25.62,
       "SAADET": 1.1,
-      "IYIP": 4.15,
-      "INDEPENDENT": 1.589
+      "IYIP": 4.15
+    },
+    "previousDeputyCounts": {
+      "AKP": 2
     }
   },
   {
@@ -546,8 +666,12 @@
       "HDP": 11.79,
       "CHP": 3.97,
       "SAADET": 1.77,
-      "IYIP": 8.19,
-      "INDEPENDENT": 7.515
+      "IYIP": 8.19
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "MHP": 1,
+      "IYIP": 1
     }
   },
   {
@@ -562,8 +686,13 @@
       "HDP": 3.86,
       "CHP": 32.45,
       "SAADET": 1.11,
-      "IYIP": 13.37,
-      "INDEPENDENT": 6.27
+      "IYIP": 13.37
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "MHP": 1,
+      "CHP": 2,
+      "IYIP": 1
     }
   },
   {
@@ -578,8 +707,14 @@
       "HDP": 11.71,
       "CHP": 14.92,
       "SAADET": 1.2,
-      "IYIP": 6.71,
-      "INDEPENDENT": 12.257
+      "IYIP": 6.71
+    },
+    "previousDeputyCounts": {
+      "AKP": 8,
+      "MHP": 2,
+      "HDP": 1,
+      "CHP": 2,
+      "IYIP": 1
     }
   },
   {
@@ -594,8 +729,11 @@
       "HDP": 1.05,
       "CHP": 17.65,
       "SAADET": 1.25,
-      "IYIP": 14.61,
-      "INDEPENDENT": 3.542
+      "IYIP": 14.61
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "CHP": 1
     }
   },
   {
@@ -610,8 +748,10 @@
       "HDP": 0.82,
       "CHP": 7.07,
       "SAADET": 1.99,
-      "IYIP": 11.47,
-      "INDEPENDENT": 1.575
+      "IYIP": 11.47
+    },
+    "previousDeputyCounts": {
+      "AKP": 2
     }
   },
   {
@@ -626,8 +766,11 @@
       "HDP": 71.8,
       "CHP": 2.97,
       "SAADET": 0.52,
-      "IYIP": 1.2,
-      "INDEPENDENT": 705
+      "IYIP": 1.2
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "HDP": 2
     }
   },
   {
@@ -642,8 +785,13 @@
       "HDP": 10.82,
       "CHP": 30.85,
       "SAADET": 0.89,
-      "IYIP": 6.57,
-      "INDEPENDENT": 8.189
+      "IYIP": 6.57
+    },
+    "previousDeputyCounts": {
+      "AKP": 5,
+      "MHP": 1,
+      "HDP": 1,
+      "CHP": 4
     }
   },
   {
@@ -658,8 +806,11 @@
       "HDP": 45.06,
       "CHP": 2.34,
       "SAADET": 2.01,
-      "IYIP": 5.85,
-      "INDEPENDENT": 1.836
+      "IYIP": 5.85
+    },
+    "previousDeputyCounts": {
+      "MHP": 1,
+      "HDP": 1
     }
   },
   {
@@ -674,8 +825,11 @@
       "HDP": 1.65,
       "CHP": 16.34,
       "SAADET": 1.51,
-      "IYIP": 18.69,
-      "INDEPENDENT": 4.118
+      "IYIP": 18.69
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "IYIP": 1
     }
   },
   {
@@ -693,13 +847,18 @@
           "HDP": 11.12,
           "CHP": 29.01,
           "SAADET": 1.56,
-          "IYIP": 8.22,
-          "INDEPENDENT": 52.353
+          "IYIP": 8.22
+        },
+        "previousDeputyCounts": {
+          "AKP": 15,
+          "MHP": 3,
+          "HDP": 4,
+          "CHP": 10,
+          "IYIP": 3
         }
       },
       {
         "name": "2. Bölge",
-
         "deputyCount": 27,
         "results": {
           "AKP": 44.31,
@@ -709,8 +868,14 @@
           "HDP": 12.13,
           "CHP": 24.81,
           "SAADET": 1.56,
-          "IYIP": 7.63,
-          "INDEPENDENT": 40.999
+          "IYIP": 7.63
+        },
+        "previousDeputyCounts": {
+          "AKP": 13,
+          "MHP": 2,
+          "HDP": 3,
+          "CHP": 8,
+          "IYIP": 2
         }
       },
       {
@@ -724,8 +889,14 @@
           "HDP": 14.3,
           "CHP": 25.35,
           "SAADET": 1.35,
-          "IYIP": 8.23,
-          "INDEPENDENT": 43.3
+          "IYIP": 8.23
+        },
+        "previousDeputyCounts": {
+          "AKP": 15,
+          "MHP": 3,
+          "HDP": 5,
+          "CHP": 9,
+          "IYIP": 3
         }
       }
     ]
@@ -745,8 +916,14 @@
           "HDP": 12.37,
           "CHP": 41.5,
           "SAADET": 0.78,
-          "IYIP": 10.6,
-          "INDEPENDENT": 10.758
+          "IYIP": 10.6
+        },
+        "previousDeputyCounts": {
+          "AKP": 4,
+          "MHP": 1,
+          "HDP": 1,
+          "CHP": 4,
+          "IYIP": 1
         }
       },
       {
@@ -760,8 +937,14 @@
           "HDP": 10.29,
           "CHP": 41.99,
           "SAADET": 0.8,
-          "IYIP": 11.39,
-          "INDEPENDENT": 11.689
+          "IYIP": 11.39
+        },
+        "previousDeputyCounts": {
+          "AKP": 4,
+          "MHP": 1,
+          "HDP": 1,
+          "CHP": 7,
+          "IYIP": 1
         }
       }
     ]
@@ -778,8 +961,12 @@
       "HDP": 3.42,
       "CHP": 9.46,
       "SAADET": 1.51,
-      "IYIP": 9.75,
-      "INDEPENDENT": 9.848
+      "IYIP": 9.75
+    },
+    "previousDeputyCounts": {
+      "AKP": 6,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -794,8 +981,11 @@
       "HDP": 0.99,
       "CHP": 16.48,
       "SAADET": 1.73,
-      "IYIP": 12.32,
-      "INDEPENDENT": 2.605
+      "IYIP": 12.32
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -810,8 +1000,11 @@
       "HDP": 1.09,
       "CHP": 16.08,
       "SAADET": 1.58,
-      "IYIP": 11.69,
-      "INDEPENDENT": 2.431
+      "IYIP": 11.69
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -826,8 +1019,11 @@
       "HDP": 32.35,
       "CHP": 14.12,
       "SAADET": 0.68,
-      "IYIP": 7.4,
-      "INDEPENDENT": 973
+      "IYIP": 7.4
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "HDP": 1
     }
   },
   {
@@ -842,8 +1038,11 @@
       "HDP": 0.63,
       "CHP": 15.35,
       "SAADET": 0.94,
-      "IYIP": 9.4,
-      "INDEPENDENT": 2.281
+      "IYIP": 9.4
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -858,8 +1057,13 @@
       "HDP": 1.9,
       "CHP": 12.12,
       "SAADET": 1.73,
-      "IYIP": 11.14,
-      "INDEPENDENT": 14.733
+      "IYIP": 11.14
+    },
+    "previousDeputyCounts": {
+      "AKP": 6,
+      "MHP": 2,
+      "CHP": 1,
+      "IYIP": 1
     }
   },
   {
@@ -874,8 +1078,12 @@
       "HDP": 1.1,
       "CHP": 15.09,
       "SAADET": 1.2,
-      "IYIP": 13.84,
-      "INDEPENDENT": 2.062
+      "IYIP": 13.84
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -890,8 +1098,11 @@
       "HDP": 2.95,
       "CHP": 48.13,
       "SAADET": 0.59,
-      "IYIP": 16.6,
-      "INDEPENDENT": 1.434
+      "IYIP": 16.6
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 2
     }
   },
   {
@@ -906,8 +1117,11 @@
       "HDP": 4.3,
       "CHP": 25.64,
       "SAADET": 0.99,
-      "IYIP": 10.24,
-      "INDEPENDENT": 1.396
+      "IYIP": 10.24
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 1
     }
   },
   {
@@ -922,8 +1136,10 @@
       "HDP": 1.83,
       "CHP": 14.4,
       "SAADET": 1.35,
-      "IYIP": 10.27,
-      "INDEPENDENT": 996
+      "IYIP": 10.27
+    },
+    "previousDeputyCounts": {
+      "AKP": 2
     }
   },
   {
@@ -938,8 +1154,14 @@
       "HDP": 7.04,
       "CHP": 20.02,
       "SAADET": 2.2,
-      "IYIP": 10.43,
-      "INDEPENDENT": 25.95
+      "IYIP": 10.43
+    },
+    "previousDeputyCounts": {
+      "AKP": 7,
+      "MHP": 1,
+      "HDP": 1,
+      "CHP": 3,
+      "IYIP": 1
     }
   },
   {
@@ -954,8 +1176,13 @@
       "HDP": 3.29,
       "CHP": 9.36,
       "SAADET": 2.36,
-      "IYIP": 9.05,
-      "INDEPENDENT": 31.092
+      "IYIP": 9.05
+    },
+    "previousDeputyCounts": {
+      "AKP": 10,
+      "MHP": 2,
+      "CHP": 2,
+      "IYIP": 1
     }
   },
   {
@@ -970,8 +1197,12 @@
       "HDP": 0.7,
       "CHP": 12.39,
       "SAADET": 1.81,
-      "IYIP": 10.72,
-      "INDEPENDENT": 6.841
+      "IYIP": 10.72
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -986,8 +1217,12 @@
       "HDP": 6.7,
       "CHP": 16.62,
       "SAADET": 1.51,
-      "IYIP": 4.25,
-      "INDEPENDENT": 7.247
+      "IYIP": 4.25
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -1002,8 +1237,13 @@
       "HDP": 6.68,
       "CHP": 26.43,
       "SAADET": 0.93,
-      "IYIP": 13.76,
-      "INDEPENDENT": 8.666
+      "IYIP": 13.76
+    },
+    "previousDeputyCounts": {
+      "AKP": 5,
+      "MHP": 1,
+      "CHP": 3,
+      "IYIP": 1
     }
   },
   {
@@ -1018,8 +1258,11 @@
       "HDP": 60.64,
       "CHP": 2.83,
       "SAADET": 0.81,
-      "IYIP": 1.02,
-      "INDEPENDENT": 3.151
+      "IYIP": 1.02
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "HDP": 4
     }
   },
   {
@@ -1034,8 +1277,14 @@
       "HDP": 16.92,
       "CHP": 26.89,
       "SAADET": 0.68,
-      "IYIP": 13.77,
-      "INDEPENDENT": 7.515
+      "IYIP": 13.77
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "MHP": 2,
+      "HDP": 2,
+      "CHP": 3,
+      "IYIP": 2
     }
   },
   {
@@ -1050,8 +1299,12 @@
       "HDP": 6.4,
       "CHP": 41.31,
       "SAADET": 0.6,
-      "IYIP": 16.76,
-      "INDEPENDENT": 3.785
+      "IYIP": 16.76
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 4,
+      "IYIP": 1
     }
   },
   {
@@ -1066,8 +1319,11 @@
       "HDP": 55.58,
       "CHP": 1.98,
       "SAADET": 0.9,
-      "IYIP": 4.3,
-      "INDEPENDENT": 1.652
+      "IYIP": 4.3
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "HDP": 3
     }
   },
   {
@@ -1082,8 +1338,11 @@
       "HDP": 1.25,
       "CHP": 16.45,
       "SAADET": 1.17,
-      "IYIP": 9.08,
-      "INDEPENDENT": 2.175
+      "IYIP": 9.08
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -1098,8 +1357,11 @@
       "HDP": 1.17,
       "CHP": 20.16,
       "SAADET": 1.2,
-      "IYIP": 12.01,
-      "INDEPENDENT": 2.487
+      "IYIP": 12.01
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -1114,8 +1376,12 @@
       "HDP": 0.9,
       "CHP": 22.74,
       "SAADET": 1.14,
-      "IYIP": 8.54,
-      "INDEPENDENT": 5.382
+      "IYIP": 8.54
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "MHP": 1,
+      "CHP": 2
     }
   },
   {
@@ -1130,8 +1396,12 @@
       "HDP": 3.16,
       "CHP": 13.33,
       "SAADET": 0.98,
-      "IYIP": 13.55,
-      "INDEPENDENT": 2.987
+      "IYIP": 13.55
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -1146,8 +1416,10 @@
       "HDP": 0.94,
       "CHP": 12.78,
       "SAADET": 1.88,
-      "IYIP": 6.01,
-      "INDEPENDENT": 4.096
+      "IYIP": 6.01
+    },
+    "previousDeputyCounts": {
+      "AKP": 3
     }
   },
   {
@@ -1162,8 +1434,13 @@
       "HDP": 2.24,
       "CHP": 13.47,
       "SAADET": 2.07,
-      "IYIP": 9.47,
-      "INDEPENDENT": 12.982
+      "IYIP": 9.47
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "MHP": 1,
+      "CHP": 1,
+      "IYIP": 1
     }
   },
   {
@@ -1178,8 +1455,13 @@
       "HDP": 1.28,
       "CHP": 17.13,
       "SAADET": 1.43,
-      "IYIP": 11,
-      "INDEPENDENT": 11.854
+      "IYIP": 11
+    },
+    "previousDeputyCounts": {
+      "AKP": 5,
+      "MHP": 1,
+      "CHP": 2,
+      "IYIP": 1
     }
   },
   {
@@ -1194,8 +1476,11 @@
       "HDP": 52.11,
       "CHP": 2.04,
       "SAADET": 0.92,
-      "IYIP": 1.49,
-      "INDEPENDENT": 1.355
+      "IYIP": 1.49
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "HDP": 2
     }
   },
   {
@@ -1210,8 +1495,11 @@
       "HDP": 1.52,
       "CHP": 24.23,
       "SAADET": 1.12,
-      "IYIP": 9.36,
-      "INDEPENDENT": 1.516
+      "IYIP": 9.36
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "CHP": 1
     }
   },
   {
@@ -1226,8 +1514,12 @@
       "HDP": 1.72,
       "CHP": 15.06,
       "SAADET": 1.77,
-      "IYIP": 6.87,
-      "INDEPENDENT": 7.052
+      "IYIP": 6.87
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -1242,8 +1534,13 @@
       "HDP": 29.3,
       "CHP": 3.42,
       "SAADET": 1.29,
-      "IYIP": 1.77,
-      "INDEPENDENT": 10.913
+      "IYIP": 1.77
+    },
+    "previousDeputyCounts": {
+      "AKP": 8,
+      "MHP": 1,
+      "HDP": 4,
+      "CHP": 1
     }
   },
   {
@@ -1258,8 +1555,11 @@
       "HDP": 71.87,
       "CHP": 2.22,
       "SAADET": 0.44,
-      "IYIP": 1.88,
-      "INDEPENDENT": 1.001
+      "IYIP": 1.88
+    },
+    "previousDeputyCounts": {
+      "AKP": 1,
+      "HDP": 3
     }
   },
   {
@@ -1274,8 +1574,12 @@
       "HDP": 6.24,
       "CHP": 38.56,
       "SAADET": 0.77,
-      "IYIP": 11.9,
-      "INDEPENDENT": 5.018
+      "IYIP": 11.9
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "CHP": 3,
+      "IYIP": 1
     }
   },
   {
@@ -1290,8 +1594,12 @@
       "HDP": 1.59,
       "CHP": 20.64,
       "SAADET": 1.28,
-      "IYIP": 9.45,
-      "INDEPENDENT": 4.834
+      "IYIP": 9.45
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -1306,8 +1614,12 @@
       "HDP": 0.85,
       "CHP": 14.93,
       "SAADET": 2.5,
-      "IYIP": 11.3,
-      "INDEPENDENT": 12.495
+      "IYIP": 11.3
+    },
+    "previousDeputyCounts": {
+      "AKP": 4,
+      "CHP": 1,
+      "IYIP": 1
     }
   },
   {
@@ -1322,8 +1634,11 @@
       "HDP": 52.07,
       "CHP": 26.49,
       "SAADET": 0.3,
-      "IYIP": 1.56,
-      "INDEPENDENT": 165
+      "IYIP": 1.56
+    },
+    "previousDeputyCounts": {
+      "HDP": 1,
+      "CHP": 1
     }
   },
   {
@@ -1338,8 +1653,11 @@
       "HDP": 2.62,
       "CHP": 28.4,
       "SAADET": 1.38,
-      "IYIP": 12.92,
-      "INDEPENDENT": 3.263
+      "IYIP": 12.92
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -1354,8 +1672,11 @@
       "HDP": 60.61,
       "CHP": 2.13,
       "SAADET": 0.78,
-      "IYIP": 1.17,
-      "INDEPENDENT": 4.031
+      "IYIP": 1.17
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "HDP": 5
     }
   },
   {
@@ -1370,8 +1691,11 @@
       "HDP": 7.68,
       "CHP": 28.75,
       "SAADET": 1.3,
-      "IYIP": 9.89,
-      "INDEPENDENT": 1.995
+      "IYIP": 9.89
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "CHP": 1
     }
   },
   {
@@ -1386,8 +1710,12 @@
       "HDP": 0.83,
       "CHP": 11.37,
       "SAADET": 1.18,
-      "IYIP": 7.45,
-      "INDEPENDENT": 2.966
+      "IYIP": 7.45
+    },
+    "previousDeputyCounts": {
+      "AKP": 2,
+      "MHP": 1,
+      "CHP": 1
     }
   },
   {
@@ -1402,8 +1730,11 @@
       "HDP": 1.42,
       "CHP": 30.92,
       "SAADET": 1.78,
-      "IYIP": 7.85,
-      "INDEPENDENT": 6.726
+      "IYIP": 7.85
+    },
+    "previousDeputyCounts": {
+      "AKP": 3,
+      "CHP": 2
     }
   }
 ]
