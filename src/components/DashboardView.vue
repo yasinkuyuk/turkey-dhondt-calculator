@@ -357,7 +357,7 @@ export default {
         );
         this.loading = false;
         this.isResultsVisible = true;
-      }, 1);
+      }, 750);
     },
     handleDistinctClick() {
       let index = this.currentProvince.distincts.findIndex(
