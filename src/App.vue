@@ -59,6 +59,12 @@
             seçim verilerinin korunabilmesi adına
             <span class="italic">Oy Oranları</span> bölümünde yer almaktadır.
           </div>
+          <div class="mt-12">
+            <flip-countdown
+              :deadline="deadline"
+              :locale="locale"
+            ></flip-countdown>
+          </div>
         </div>
         <div class="col-span-3 md:col-span-2">
           <h2 class="text-2xl font-semibold text-gray-400">
@@ -78,11 +84,24 @@
 </template>
 
 <script>
+import FlipCountdown from "vue2-flip-countdown";
 import { DashboardView, FooterBadge, TurkeyMap } from "@/components";
 import { mapGetters } from "vuex";
 export default {
   name: "App",
-  components: { DashboardView, TurkeyMap, FooterBadge },
+  data() {
+    return {
+      deadline: "2023-05-14 09:00:00",
+    };
+  },
+  mounted() {
+    let timeSlots = document.getElementsByClassName("flip-clock__slot");
+    timeSlots[0].innerHTML = "Gün";
+    timeSlots[1].innerHTML = "Saat";
+    timeSlots[2].innerHTML = "Dakika";
+    timeSlots[3].innerHTML = "Saniye";
+  },
+  components: { DashboardView, TurkeyMap, FooterBadge, FlipCountdown },
   computed: {
     ...mapGetters(["currentProvince"]),
   },
