@@ -126,22 +126,18 @@
               </div>
             </div>
           </div>
-          <div class="grid grid-cols-4 gap-2">
-            <div
+          <div class="grid grid-cols-4 gap-3">
+            <party-result
               v-for="party in Object.keys(votes)"
               :key="party"
-              class="border-1 text-center rounded-md shadow-lg bg-white col-span-2 md:col-span-1"
-            >
-              <div class="text-2xl font-semibold">
-                {{ results[party] ? results[party] : 0 }}
-              </div>
-              <div class="text-gray-400 mt-1">{{ party }}</div>
-
-              <hr class="my-1" />
-              <div class="">%{{ votes[party] }}</div>
-            </div>
+              :result="results[party]"
+              :party="party"
+              :vote="votes[party]"
+              :previousDeputyCount="provinceData.previousDeputyCounts[party]"
+            ></party-result>
           </div>
-          <div class="w-full my-4" id="download-wrapper">
+
+          <div class="w-full mt-8 mb-4" id="download-wrapper">
             <el-button
               @click="exportResultsAsImage"
               type="primary"
@@ -309,6 +305,7 @@
 <script>
 import { mapGetters } from "vuex";
 import ProvinceDropdown from "./ProvinceDropdown.vue";
+import PartyResult from "./PartyResult.vue";
 import VueSlider from "vue-slider-component";
 import "vue-slider-component/theme/antd.css";
 import { DhondtCalculator } from "@/utils";
@@ -319,6 +316,7 @@ import VueQr from "vue-qr";
 export default {
   name: "DashboardView",
   components: {
+    PartyResult,
     ProvinceDropdown,
     VueSlider,
     VueQr,
@@ -359,7 +357,7 @@ export default {
         );
         this.loading = false;
         this.isResultsVisible = true;
-      }, 750);
+      }, 1);
     },
     handleDistinctClick() {
       let index = this.currentProvince.distincts.findIndex(
@@ -502,5 +500,17 @@ export default {
 
 .el-input-number--small {
   width: 120px;
+}
+
+.el-collapse-item__header {
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.el-collapse-item__wrap {
+  padding: 1rem;
+  background-color: inherit;
 }
 </style>
