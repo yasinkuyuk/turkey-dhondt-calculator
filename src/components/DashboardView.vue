@@ -126,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="grid grid-cols-4 gap-3">
+          <div class="grid grid-cols-4 gap-4">
             <party-result
               v-for="party in Object.keys(votes)"
               :key="party"
@@ -387,7 +387,9 @@ export default {
       let linkWrapper = document.getElementById("link-wrapper");
       buttonWrapper.setAttribute("style", "display:none;");
       linkWrapper.setAttribute("style", "display:block;");
-      toJpeg(document.getElementById("results"))
+      toJpeg(document.getElementById("results"), {
+        backgroundColor: "antiquewhite",
+      })
         .then((url) => {
           saveAs(url, this.filename);
           buttonWrapper.setAttribute("style", "display:block;");

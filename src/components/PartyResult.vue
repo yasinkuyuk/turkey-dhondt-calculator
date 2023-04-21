@@ -1,13 +1,12 @@
 <template>
   <div
-    class="border-1 text-center rounded-md shadow-md bg-white col-span-2 md:col-span-1 flex hover:shadow-lg"
+    class="border-1 text-center rounded-md shadow-md bg-white col-span-4 md:col-span-2 lg:col-span-1 flex hover:shadow-lg"
   >
     <div
       class="w-20 m-auto pl-3 border-r-[1px] border-gray-100 shadow-xl h-full flex items-center"
     >
       <img :src="`${party}.png`" class="h-10" />
     </div>
-    <vr></vr>
     <div class="w-full">
       <div class="text-4xl font-semibold">
         {{ result || 0 }}
